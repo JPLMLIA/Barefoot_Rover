@@ -1,0 +1,9 @@
+Result 07-January-2020/hpsc_rf/config_hpsc_rf_procs_config_results_21-26-06.txt
+	Config:  AUTO
+	Parameters:
+		procs: ['1', '2', '4', '8', '16']
+		num_trees: ['32', '64', '128', '256', '512', '1024']
+		exec: ['RandomForest']
+		tree_depth: ['3', '6', '10']
+		data: ['gesture_phase']
+		min_leaf_samples: ['10']

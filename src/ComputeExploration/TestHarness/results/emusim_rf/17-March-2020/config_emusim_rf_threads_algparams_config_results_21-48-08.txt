@@ -1,0 +1,3977 @@
+emusim_rf
+tree_depth = 3
+	exec = random_forest_classifier.mwx
+		log2_memory_size = 33
+			log2_num_nodelets = 3
+				gcs_per_nodelet = 1
+					min_leaf_samples = 5
+						threads = 1
+							num_trees = 32
+								data = creditcard
+									924.6325
+								data = eeg
+									929.6425
+								data = gesture_phase1
+									931.78
+								data = gesture_phase2
+									939.095
+							num_trees = 64
+								data = creditcard
+									1710.3725
+								data = eeg
+									1714.605
+								data = gesture_phase1
+									1723.54
+								data = gesture_phase2
+									1717.55
+							num_trees = 128
+								data = creditcard
+									3298.2025
+								data = eeg
+									3237.9425
+								data = gesture_phase1
+									3290.6025
+								data = gesture_phase2
+									3240.7525
+							num_trees = 256
+								data = creditcard
+									6239.81
+								data = eeg
+									6167.2925
+								data = gesture_phase1
+									6272.385
+								data = gesture_phase2
+									6161.5025
+							num_trees = 512
+								data = creditcard
+									11996.825
+								data = eeg
+									12006.9075
+								data = gesture_phase1
+									12173.4925
+								data = gesture_phase2
+									12120.99
+							num_trees = 1024
+								data = creditcard
+									23811.8875
+								data = eeg
+									23615.685
+								data = gesture_phase1
+									23921.0075
+								data = gesture_phase2
+									23761.0275
+						threads = 2
+							num_trees = 32
+								data = creditcard
+									816.9225
+								data = eeg
+									804.7675
+								data = gesture_phase1
+									834.2925
+								data = gesture_phase2
+									823.9075
+							num_trees = 64
+								data = creditcard
+									1396.3575
+								data = eeg
+									1453.27
+								data = gesture_phase1
+									1462.4375
+								data = gesture_phase2
+									1460.5925
+							num_trees = 128
+								data = creditcard
+									2664.2525
+								data = eeg
+									2709.11
+								data = gesture_phase1
+									2708.635
+								data = gesture_phase2
+									2730.1525
+							num_trees = 256
+								data = creditcard
+									5095.815
+								data = eeg
+									5120.3475
+								data = gesture_phase1
+									5074.075
+								data = gesture_phase2
+									5057.9875
+							num_trees = 512
+								data = creditcard
+									9629.645
+								data = eeg
+									9673.065
+								data = gesture_phase1
+									9637.0075
+								data = gesture_phase2
+									9766.185
+							num_trees = 1024
+								data = creditcard
+									18826.5275
+								data = eeg
+									18874.0825
+								data = gesture_phase1
+									18883.1625
+								data = gesture_phase2
+									18866.71
+						threads = 4
+							num_trees = 32
+								data = creditcard
+									913.1525
+								data = eeg
+									909.8925
+								data = gesture_phase1
+									925.5725
+								data = gesture_phase2
+									916.49
+							num_trees = 64
+								data = creditcard
+									1376.195
+								data = eeg
+									1371.98
+								data = gesture_phase1
+									1383.3125
+								data = gesture_phase2
+									1375.41
+							num_trees = 128
+								data = creditcard
+									2406.0025
+								data = eeg
+									2426.0825
+								data = gesture_phase1
+									2415.9675
+								data = gesture_phase2
+									2424.2775
+							num_trees = 256
+								data = creditcard
+									4659.73
+								data = eeg
+									4663.0875
+								data = gesture_phase1
+									4678.6625
+								data = gesture_phase2
+									4736.35
+							num_trees = 512
+								data = creditcard
+									8921.315
+								data = eeg
+									8928.955
+								data = gesture_phase1
+									8970.05
+								data = gesture_phase2
+									8907.9325
+							num_trees = 1024
+								data = creditcard
+									17257.4925
+								data = eeg
+									16790.4975
+								data = gesture_phase1
+									17095.9575
+								data = gesture_phase2
+									17007.235
+						threads = 8
+							num_trees = 32
+								data = creditcard
+									1129.505
+								data = eeg
+									1128.2775
+								data = gesture_phase1
+									1138.115
+								data = gesture_phase2
+									1134.9475
+							num_trees = 64
+								data = creditcard
+									1588.5475
+								data = eeg
+									1587.875
+								data = gesture_phase1
+									1599.9825
+								data = gesture_phase2
+									1596.4275
+							num_trees = 128
+								data = creditcard
+									2495.345
+								data = eeg
+									2491.0925
+								data = gesture_phase1
+									2505.6725
+								data = gesture_phase2
+									2505.4875
+							num_trees = 256
+								data = creditcard
+									4357.3825
+								data = eeg
+									4350.2
+								data = gesture_phase1
+									4346.5775
+								data = gesture_phase2
+									4373.8775
+							num_trees = 512
+								data = creditcard
+									8507.1075
+								data = eeg
+									8523.64
+								data = gesture_phase1
+									8452.9875
+								data = gesture_phase2
+									8510.26
+							num_trees = 1024
+								data = creditcard
+									16494.745
+								data = eeg
+									16539.925
+								data = gesture_phase1
+									16417.465
+								data = gesture_phase2
+									16395.385
+						threads = 16
+							num_trees = 32
+								data = creditcard
+									1593.4375
+								data = eeg
+									1587.9325
+								data = gesture_phase1
+									1603.5375
+								data = gesture_phase2
+									1601.35
+							num_trees = 64
+								data = creditcard
+									2042.8325
+								data = eeg
+									2047.6075
+								data = gesture_phase1
+									2052.0825
+								data = gesture_phase2
+									2049.405
+							num_trees = 128
+								data = creditcard
+									2953.6375
+								data = eeg
+									2949.665
+								data = gesture_phase1
+									2969.7
+								data = gesture_phase2
+									2964.3
+							num_trees = 256
+								data = creditcard
+									4772.0375
+								data = eeg
+									4765.5575
+								data = gesture_phase1
+									4777.9025
+								data = gesture_phase2
+									4773.8
+							num_trees = 512
+								data = creditcard
+									8425.67
+								data = eeg
+									8410.795
+								data = gesture_phase1
+									8430.805
+								data = gesture_phase2
+									8423.2075
+							num_trees = 1024
+								data = creditcard
+									15973.5075
+								data = eeg
+									16023.3125
+								data = gesture_phase1
+									15986.8775
+								data = gesture_phase2
+									16023.625
+						threads = 32
+							num_trees = 32
+								data = creditcard
+									2509.4025
+								data = eeg
+									2501.3575
+								data = gesture_phase1
+									2512.6425
+								data = gesture_phase2
+									2510.09
+							num_trees = 64
+								data = creditcard
+									2980.66
+								data = eeg
+									2982.7425
+								data = gesture_phase1
+									2994.7325
+								data = gesture_phase2
+									2993.4425
+							num_trees = 128
+								data = creditcard
+									3885.6675
+								data = eeg
+									3883.1275
+								data = gesture_phase1
+									3898.3
+								data = gesture_phase2
+									3893.92
+							num_trees = 256
+								data = creditcard
+									5699.005
+								data = eeg
+									5690.1675
+								data = gesture_phase1
+									5701.2825
+								data = gesture_phase2
+									5702.2625
+							num_trees = 512
+								data = creditcard
+									9332.74
+								data = eeg
+									9323.935
+								data = gesture_phase1
+									9344.1475
+								data = gesture_phase2
+									9334.795
+							num_trees = 1024
+								data = creditcard
+									16613.64
+								data = eeg
+									16604.6975
+								data = gesture_phase1
+									16611.4325
+								data = gesture_phase2
+									16631.895
+						threads = 64
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+									4811.8875
+								data = eeg
+									4815.3225
+								data = gesture_phase1
+									4821.8875
+								data = gesture_phase2
+									4818.6625
+							num_trees = 128
+								data = creditcard
+									5768.365
+								data = eeg
+									5767.37
+								data = gesture_phase1
+									5783.0825
+								data = gesture_phase2
+									5780.2975
+							num_trees = 256
+								data = creditcard
+									7579.5425
+								data = eeg
+									7569.1425
+								data = gesture_phase1
+									7580.3
+								data = gesture_phase2
+									7578.9075
+							num_trees = 512
+								data = creditcard
+									11177.7025
+								data = eeg
+									11173.1925
+								data = gesture_phase1
+									11195.6675
+								data = gesture_phase2
+									11185.3025
+							num_trees = 1024
+								data = creditcard
+									18451.64
+								data = eeg
+									18449.66
+								data = gesture_phase1
+									18460.395
+								data = gesture_phase2
+									18470.955
+						threads = 128
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 128
+								data = creditcard
+									9434.1525
+								data = eeg
+									9430.265
+								data = gesture_phase1
+									9446.255
+								data = gesture_phase2
+									9441.14
+							num_trees = 256
+								data = creditcard
+									11353.185
+								data = eeg
+									11343.235
+								data = gesture_phase1
+									11354.255
+								data = gesture_phase2
+									11353.2025
+							num_trees = 512
+								data = creditcard
+									14949.135
+								data = eeg
+									14945.2725
+								data = gesture_phase1
+									14964.1425
+								data = gesture_phase2
+									14954.55
+							num_trees = 1024
+								data = creditcard
+									22158.4375
+								data = eeg
+									22156.6475
+								data = gesture_phase1
+									22163.77
+								data = gesture_phase2
+									22174.575
+					min_leaf_samples = 10
+						threads = 1
+							num_trees = 32
+								data = creditcard
+									945.6775
+								data = eeg
+									929.6425
+								data = gesture_phase1
+									945.1225
+								data = gesture_phase2
+									954.7575
+							num_trees = 64
+								data = creditcard
+									1710.0275
+								data = eeg
+									1718.29
+								data = gesture_phase1
+									1723.6075
+								data = gesture_phase2
+									1717.55
+							num_trees = 128
+								data = creditcard
+									3256.2325
+								data = eeg
+									3231.3175
+								data = gesture_phase1
+									3248.6675
+								data = gesture_phase2
+									3240.845
+							num_trees = 256
+								data = creditcard
+									6174.2375
+								data = eeg
+									6244.69
+								data = gesture_phase1
+									6246.7825
+								data = gesture_phase2
+									6200.61
+							num_trees = 512
+								data = creditcard
+									12146.555
+								data = eeg
+									12040.5
+								data = gesture_phase1
+									12137.3475
+								data = gesture_phase2
+									12002.625
+							num_trees = 1024
+								data = creditcard
+									23761.025
+								data = eeg
+									23892.8225
+								data = gesture_phase1
+									23810.33
+								data = gesture_phase2
+									23831.73
+						threads = 2
+							num_trees = 32
+								data = creditcard
+									819.3525
+								data = eeg
+									804.7675
+								data = gesture_phase1
+									842.5675
+								data = gesture_phase2
+									825.7675
+							num_trees = 64
+								data = creditcard
+									1439.8625
+								data = eeg
+									1453.5075
+								data = gesture_phase1
+									1436.335
+								data = gesture_phase2
+									1460.5925
+							num_trees = 128
+								data = creditcard
+									2717.92
+								data = eeg
+									2677.91
+								data = gesture_phase1
+									2753.105
+								data = gesture_phase2
+									2689.2675
+							num_trees = 256
+								data = creditcard
+									5126.8225
+								data = eeg
+									5130.2175
+								data = gesture_phase1
+									5093.3325
+								data = gesture_phase2
+									5101.4875
+							num_trees = 512
+								data = creditcard
+									9658.375
+								data = eeg
+									9718.43
+								data = gesture_phase1
+									9713.7475
+								data = gesture_phase2
+									9786.185
+							num_trees = 1024
+								data = creditcard
+									18869.7825
+								data = eeg
+									18830.17
+								data = gesture_phase1
+									18839.07
+								data = gesture_phase2
+									19001.485
+						threads = 4
+							num_trees = 32
+								data = creditcard
+									914.3025
+								data = eeg
+									909.8925
+								data = gesture_phase1
+									926.79
+								data = gesture_phase2
+									920.035
+							num_trees = 64
+								data = creditcard
+									1370.58
+								data = eeg
+									1366.925
+								data = gesture_phase1
+									1381.1175
+								data = gesture_phase2
+									1375.41
+							num_trees = 128
+								data = creditcard
+									2391.0825
+								data = eeg
+									2436.035
+								data = gesture_phase1
+									2411.82
+								data = gesture_phase2
+									2412.1425
+							num_trees = 256
+								data = creditcard
+									4678.9975
+								data = eeg
+									4700.585
+								data = gesture_phase1
+									4670.97
+								data = gesture_phase2
+									4697.9
+							num_trees = 512
+								data = creditcard
+									8909.11
+								data = eeg
+									8925.715
+								data = gesture_phase1
+									8919.4825
+								data = gesture_phase2
+									9023.33
+							num_trees = 1024
+								data = creditcard
+									17049.655
+								data = eeg
+									17057.2075
+								data = gesture_phase1
+									17110.3925
+								data = gesture_phase2
+									17072.49
+						threads = 8
+							num_trees = 32
+								data = creditcard
+									1128.9975
+								data = eeg
+									1128.2775
+								data = gesture_phase1
+									1137.725
+								data = gesture_phase2
+									1136.19
+							num_trees = 64
+								data = creditcard
+									1590.28
+								data = eeg
+									1585.06
+								data = gesture_phase1
+									1599.9075
+								data = gesture_phase2
+									1596.4275
+							num_trees = 128
+								data = creditcard
+									2493.89
+								data = eeg
+									2491.71
+								data = gesture_phase1
+									2505.385
+								data = gesture_phase2
+									2502.8775
+							num_trees = 256
+								data = creditcard
+									4347.5775
+								data = eeg
+									4357.92
+								data = gesture_phase1
+									4361.595
+								data = gesture_phase2
+									4354.7925
+							num_trees = 512
+								data = creditcard
+									8413.2375
+								data = eeg
+									8448.17
+								data = gesture_phase1
+									8497.99
+								data = gesture_phase2
+									8540.1075
+							num_trees = 1024
+								data = creditcard
+									16447.225
+								data = eeg
+									16538.665
+								data = gesture_phase1
+									16499.3725
+								data = gesture_phase2
+									16486.49
+						threads = 16
+							num_trees = 32
+								data = creditcard
+									1589.8475
+								data = eeg
+									1587.9325
+								data = gesture_phase1
+									1600.5375
+								data = gesture_phase2
+									1599.3625
+							num_trees = 64
+								data = creditcard
+									2046.5125
+								data = eeg
+									2042.34
+								data = gesture_phase1
+									2053.5575
+								data = gesture_phase2
+									2049.405
+							num_trees = 128
+								data = creditcard
+									2956.555
+								data = eeg
+									2950.2675
+								data = gesture_phase1
+									2965.67
+								data = gesture_phase2
+									2963.7775
+							num_trees = 256
+								data = creditcard
+									4772.355
+								data = eeg
+									4764.2625
+								data = gesture_phase1
+									4772.67
+								data = gesture_phase2
+									4776.5775
+							num_trees = 512
+								data = creditcard
+									8432.365
+								data = eeg
+									8420.095
+								data = gesture_phase1
+									8432.2425
+								data = gesture_phase2
+									8435.0975
+							num_trees = 1024
+								data = creditcard
+									15957.79
+								data = eeg
+									15988.3425
+								data = gesture_phase1
+									15985.6925
+								data = gesture_phase2
+									16030.7125
+						threads = 32
+							num_trees = 32
+								data = creditcard
+									2503.56
+								data = eeg
+									2501.3575
+								data = gesture_phase1
+									2511.895
+								data = gesture_phase2
+									2510.1975
+							num_trees = 64
+								data = creditcard
+									2985.225
+								data = eeg
+									2983.0825
+								data = gesture_phase1
+									2990.6725
+								data = gesture_phase2
+									2993.4425
+							num_trees = 128
+								data = creditcard
+									3887.3775
+								data = eeg
+									3880.5
+								data = gesture_phase1
+									3896.91
+								data = gesture_phase2
+									3891.5125
+							num_trees = 256
+								data = creditcard
+									5697.72
+								data = eeg
+									5689.965
+								data = gesture_phase1
+									5702.02
+								data = gesture_phase2
+									5701.9025
+							num_trees = 512
+								data = creditcard
+									9340.995
+								data = eeg
+									9322.92
+								data = gesture_phase1
+									9345.215
+								data = gesture_phase2
+									9339.41
+							num_trees = 1024
+								data = creditcard
+									16609.8075
+								data = eeg
+									16586.045
+								data = gesture_phase1
+									16626.26
+								data = gesture_phase2
+									16632.2425
+						threads = 64
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+									4815.2625
+								data = eeg
+									4812.585
+								data = gesture_phase1
+									4820.7475
+								data = gesture_phase2
+									4818.6625
+							num_trees = 128
+								data = creditcard
+									5770.725
+								data = eeg
+									5766.755
+								data = gesture_phase1
+									5780.08
+								data = gesture_phase2
+									5776.78
+							num_trees = 256
+								data = creditcard
+									7576.2875
+								data = eeg
+									7571.4375
+								data = gesture_phase1
+									7576.6875
+								data = gesture_phase2
+									7579.3925
+							num_trees = 512
+								data = creditcard
+									11186.4275
+								data = eeg
+									11171.8275
+								data = gesture_phase1
+									11194.8425
+								data = gesture_phase2
+									11186.6975
+							num_trees = 1024
+								data = creditcard
+									18444.415
+								data = eeg
+									18439.8525
+								data = gesture_phase1
+									18474.22
+								data = gesture_phase2
+									18465.0975
+						threads = 128
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 128
+								data = creditcard
+									9435.3025
+								data = eeg
+									9429.78
+								data = gesture_phase1
+									9443.8925
+								data = gesture_phase2
+									9440.0925
+							num_trees = 256
+								data = creditcard
+									11349.2025
+								data = eeg
+									11343.88
+								data = gesture_phase1
+									11351.51
+								data = gesture_phase2
+									11354.0125
+							num_trees = 512
+								data = creditcard
+									14957.0725
+								data = eeg
+									14942.265
+								data = gesture_phase1
+									14965.03
+								data = gesture_phase2
+									14958.125
+							num_trees = 1024
+								data = creditcard
+									22149.29
+								data = eeg
+									22147.4725
+								data = gesture_phase1
+									22179.6175
+								data = gesture_phase2
+									22170.3175
+					min_leaf_samples = 50
+						threads = 1
+							num_trees = 32
+								data = creditcard
+									940.195
+								data = eeg
+									940.925
+								data = gesture_phase1
+									951.005
+								data = gesture_phase2
+									947.5125
+							num_trees = 64
+								data = creditcard
+									1706.055
+								data = eeg
+									1691.0175
+								data = gesture_phase1
+									1734.98
+								data = gesture_phase2
+									1725.6725
+							num_trees = 128
+								data = creditcard
+									3212.4325
+								data = eeg
+									3224.3575
+								data = gesture_phase1
+									3243.43
+								data = gesture_phase2
+									3257.3575
+							num_trees = 256
+								data = creditcard
+									6180.1025
+								data = eeg
+									6186.795
+								data = gesture_phase1
+									6172.255
+								data = gesture_phase2
+									6221.02
+							num_trees = 512
+								data = creditcard
+									12036.6875
+								data = eeg
+									11867.83
+								data = gesture_phase1
+									12002.03
+								data = gesture_phase2
+									12120.5875
+							num_trees = 1024
+								data = creditcard
+									23622.9925
+								data = eeg
+									23907.4625
+								data = gesture_phase1
+									23857.7725
+								data = gesture_phase2
+									23882.525
+						threads = 2
+							num_trees = 32
+								data = creditcard
+									810.2675
+								data = eeg
+									825.8675
+								data = gesture_phase1
+									832.12
+								data = gesture_phase2
+									816.82
+							num_trees = 64
+								data = creditcard
+									1439.0375
+								data = eeg
+									1428.04
+								data = gesture_phase1
+									1453.7125
+								data = gesture_phase2
+									1453.58
+							num_trees = 128
+								data = creditcard
+									2719.73
+								data = eeg
+									2675.065
+								data = gesture_phase1
+									2734.03
+								data = gesture_phase2
+									2677.485
+							num_trees = 256
+								data = creditcard
+									5115.355
+								data = eeg
+									5138.975
+								data = gesture_phase1
+									5109.1025
+								data = gesture_phase2
+									5053.1675
+							num_trees = 512
+								data = creditcard
+									9678.6225
+								data = eeg
+									9726.24
+								data = gesture_phase1
+									9625.4925
+								data = gesture_phase2
+									9646.405
+							num_trees = 1024
+								data = creditcard
+									18690.125
+								data = eeg
+									18828.445
+								data = gesture_phase1
+									18974.415
+								data = gesture_phase2
+									18811.585
+						threads = 4
+							num_trees = 32
+								data = creditcard
+									913.64
+								data = eeg
+									917.3575
+								data = gesture_phase1
+									929.5325
+								data = gesture_phase2
+									923.3975
+							num_trees = 64
+								data = creditcard
+									1365.745
+								data = eeg
+									1366.2325
+								data = gesture_phase1
+									1382.445
+								data = gesture_phase2
+									1377.2
+							num_trees = 128
+								data = creditcard
+									2420.7475
+								data = eeg
+									2402.92
+								data = gesture_phase1
+									2438.2925
+								data = gesture_phase2
+									2421.1525
+							num_trees = 256
+								data = creditcard
+									4687.555
+								data = eeg
+									4678.685
+								data = gesture_phase1
+									4708.1675
+								data = gesture_phase2
+									4697.4125
+							num_trees = 512
+								data = creditcard
+									8753.865
+								data = eeg
+									8999.985
+								data = gesture_phase1
+									9014.765
+								data = gesture_phase2
+									8897.6475
+							num_trees = 1024
+								data = creditcard
+									16970.17
+								data = eeg
+									17021.3775
+								data = gesture_phase1
+									17108.215
+								data = gesture_phase2
+									16946.36
+						threads = 8
+							num_trees = 32
+								data = creditcard
+									1127.975
+								data = eeg
+									1127.3475
+								data = gesture_phase1
+									1135.9075
+								data = gesture_phase2
+									1140.2525
+							num_trees = 64
+								data = creditcard
+									1580.915
+								data = eeg
+									1593.445
+								data = gesture_phase1
+									1598.0675
+								data = gesture_phase2
+									1593.6375
+							num_trees = 128
+								data = creditcard
+									2490.4725
+								data = eeg
+									2495.5625
+								data = gesture_phase1
+									2504.0875
+								data = gesture_phase2
+									2502.065
+							num_trees = 256
+								data = creditcard
+									4339.685
+								data = eeg
+									4335.4725
+								data = gesture_phase1
+									4332.855
+								data = gesture_phase2
+									4361.5875
+							num_trees = 512
+								data = creditcard
+									8552.4025
+								data = eeg
+									8494.185
+								data = gesture_phase1
+									8489.13
+								data = gesture_phase2
+									8501.7925
+							num_trees = 1024
+								data = creditcard
+									16453.2175
+								data = eeg
+									16443.44
+								data = gesture_phase1
+									16415.755
+								data = gesture_phase2
+									16388.79
+						threads = 16
+							num_trees = 32
+								data = creditcard
+									1592.1525
+								data = eeg
+									1593.42
+								data = gesture_phase1
+									1600.6875
+								data = gesture_phase2
+									1598.305
+							num_trees = 64
+								data = creditcard
+									2039.4375
+								data = eeg
+									2043.195
+								data = gesture_phase1
+									2050.235
+								data = gesture_phase2
+									2049.5425
+							num_trees = 128
+								data = creditcard
+									2954.1125
+								data = eeg
+									2953.2725
+								data = gesture_phase1
+									2970.56
+								data = gesture_phase2
+									2962.5075
+							num_trees = 256
+								data = creditcard
+									4769.4975
+								data = eeg
+									4763.395
+								data = gesture_phase1
+									4775.81
+								data = gesture_phase2
+									4771.04
+							num_trees = 512
+								data = creditcard
+									8418.72
+								data = eeg
+									8404.0825
+								data = gesture_phase1
+									8422.845
+								data = gesture_phase2
+									8413.4825
+							num_trees = 1024
+								data = creditcard
+									16014.315
+								data = eeg
+									16120.23
+								data = gesture_phase1
+									15952.2325
+								data = gesture_phase2
+									16020.575
+						threads = 32
+							num_trees = 32
+								data = creditcard
+									2506.7325
+								data = eeg
+									2507.175
+								data = gesture_phase1
+									2510.2525
+								data = gesture_phase2
+									2512.775
+							num_trees = 64
+								data = creditcard
+									2978.66
+								data = eeg
+									2982.235
+								data = gesture_phase1
+									2988.585
+								data = gesture_phase2
+									2991.055
+							num_trees = 128
+								data = creditcard
+									3887.04
+								data = eeg
+									3885.0425
+								data = gesture_phase1
+									3895.6925
+								data = gesture_phase2
+									3891.9625
+							num_trees = 256
+								data = creditcard
+									5696.38
+								data = eeg
+									5688.82
+								data = gesture_phase1
+									5703.4725
+								data = gesture_phase2
+									5700.93
+							num_trees = 512
+								data = creditcard
+									9328.08
+								data = eeg
+									9323.595
+								data = gesture_phase1
+									9334.19
+								data = gesture_phase2
+									9334.38
+							num_trees = 1024
+								data = creditcard
+									16603.05
+								data = eeg
+									16608.8525
+								data = gesture_phase1
+									16624.075
+								data = gesture_phase2
+									16597.04
+						threads = 64
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+									4808.3
+								data = eeg
+									4813.0775
+								data = gesture_phase1
+									4818.8725
+								data = gesture_phase2
+									4818.56
+							num_trees = 128
+								data = creditcard
+									5769.8375
+								data = eeg
+									5769.78
+								data = gesture_phase1
+									5779.785
+								data = gesture_phase2
+									5776.3125
+							num_trees = 256
+								data = creditcard
+									7574.62
+								data = eeg
+									7567.4525
+								data = gesture_phase1
+									7580.0425
+								data = gesture_phase2
+									7577.9575
+							num_trees = 512
+								data = creditcard
+									11178.34
+								data = eeg
+									11171.675
+								data = gesture_phase1
+									11184.98
+								data = gesture_phase2
+									11179.565
+							num_trees = 1024
+								data = creditcard
+									18441.0525
+								data = eeg
+									18446.4575
+								data = gesture_phase1
+									18461.1125
+								data = gesture_phase2
+									18444.475
+						threads = 128
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 128
+								data = creditcard
+									9432.9
+								data = eeg
+									9433.1525
+								data = gesture_phase1
+									9443.1425
+								data = gesture_phase2
+									9439.1875
+							num_trees = 256
+								data = creditcard
+									11347.74
+								data = eeg
+									11342.2975
+								data = gesture_phase1
+									11353.51
+								data = gesture_phase2
+									11352.3875
+							num_trees = 512
+								data = creditcard
+									14948.07
+								data = eeg
+									14942.575
+								data = gesture_phase1
+									14954.0025
+								data = gesture_phase2
+									14949.68
+							num_trees = 1024
+								data = creditcard
+									22148.7425
+								data = eeg
+									22151.04
+								data = gesture_phase1
+									22161.8425
+								data = gesture_phase2
+									22146.445
+tree_depth = 6
+					min_leaf_samples = 5
+						threads = 1
+							num_trees = 32
+								data = creditcard
+									1429.9125
+								data = eeg
+									1397.5975
+								data = gesture_phase1
+									1433.405
+								data = gesture_phase2
+									1429.5575
+							num_trees = 64
+								data = creditcard
+									2707.0075
+								data = eeg
+									2645.005
+								data = gesture_phase1
+									2733.335
+								data = gesture_phase2
+									2751.94
+							num_trees = 128
+								data = creditcard
+									5145.69
+								data = eeg
+									5090.285
+								data = gesture_phase1
+									5161.8975
+								data = gesture_phase2
+									5147.4375
+							num_trees = 256
+								data = creditcard
+									9960.4825
+								data = eeg
+									9926.5225
+								data = gesture_phase1
+									9889.9225
+								data = gesture_phase2
+									9894.7975
+							num_trees = 512
+								data = creditcard
+									19408.745
+								data = eeg
+									19354.7175
+								data = gesture_phase1
+									19734.2275
+								data = gesture_phase2
+									19496.7125
+							num_trees = 1024
+								data = creditcard
+									38288.125
+								data = eeg
+									38513.31
+								data = gesture_phase1
+									38541.5425
+								data = gesture_phase2
+									38618.83
+						threads = 2
+							num_trees = 32
+								data = creditcard
+									1185.39
+								data = eeg
+									1191.855
+								data = gesture_phase1
+									1175.6475
+								data = gesture_phase2
+									1177.215
+							num_trees = 64
+								data = creditcard
+									2247.6225
+								data = eeg
+									2224.2325
+								data = gesture_phase1
+									2223.3125
+								data = gesture_phase2
+									2256.1125
+							num_trees = 128
+								data = creditcard
+									4242.45
+								data = eeg
+									4206.7725
+								data = gesture_phase1
+									4256.805
+								data = gesture_phase2
+									4260.105
+							num_trees = 256
+								data = creditcard
+									8062.505
+								data = eeg
+									7970.35
+								data = gesture_phase1
+									8132.275
+								data = gesture_phase2
+									8038.6775
+							num_trees = 512
+								data = creditcard
+									15526.7525
+								data = eeg
+									15433.9525
+								data = gesture_phase1
+									15517.625
+								data = gesture_phase2
+									15526.925
+							num_trees = 1024
+								data = creditcard
+									30432.6025
+								data = eeg
+									30240.02
+								data = gesture_phase1
+									30345.92
+								data = gesture_phase2
+									30415.1
+						threads = 4
+							num_trees = 32
+								data = creditcard
+									1196.89
+								data = eeg
+									1207.0575
+								data = gesture_phase1
+									1217.0025
+								data = gesture_phase2
+									1211.845
+							num_trees = 64
+								data = creditcard
+									1979.62
+								data = eeg
+									1973.85
+								data = gesture_phase1
+									1985.0925
+								data = gesture_phase2
+									2002.75
+							num_trees = 128
+								data = creditcard
+									3883.275
+								data = eeg
+									3902.08
+								data = gesture_phase1
+									3868.705
+								data = gesture_phase2
+									3788.62
+							num_trees = 256
+								data = creditcard
+									7458.9225
+								data = eeg
+									7339.97
+								data = gesture_phase1
+									7358.955
+								data = gesture_phase2
+									7387.485
+							num_trees = 512
+								data = creditcard
+									14179.0825
+								data = eeg
+									14154.42
+								data = gesture_phase1
+									14286.11
+								data = gesture_phase2
+									14259.58
+							num_trees = 1024
+								data = creditcard
+									27193.29
+								data = eeg
+									27299.5975
+								data = gesture_phase1
+									27222.685
+								data = gesture_phase2
+									27434.5425
+						threads = 8
+							num_trees = 32
+								data = creditcard
+									1399.6925
+								data = eeg
+									1394.845
+								data = gesture_phase1
+									1408.6225
+								data = gesture_phase2
+									1409.4475
+							num_trees = 64
+								data = creditcard
+									2129.555
+								data = eeg
+									2131.655
+								data = gesture_phase1
+									2144.7275
+								data = gesture_phase2
+									2146.9025
+							num_trees = 128
+								data = creditcard
+									3615.5875
+								data = eeg
+									3582.77
+								data = gesture_phase1
+									3607.1125
+								data = gesture_phase2
+									3608.37
+							num_trees = 256
+								data = creditcard
+									6891.1375
+								data = eeg
+									7066.2625
+								data = gesture_phase1
+									6947.725
+								data = gesture_phase2
+									6961.335
+							num_trees = 512
+								data = creditcard
+									13874.205
+								data = eeg
+									13788.8725
+								data = gesture_phase1
+									13784.535
+								data = gesture_phase2
+									13675.1825
+							num_trees = 1024
+								data = creditcard
+									26389.845
+								data = eeg
+									26503.095
+								data = gesture_phase1
+									26105.6225
+								data = gesture_phase2
+									26657.525
+						threads = 16
+							num_trees = 32
+								data = creditcard
+									1856.6375
+								data = eeg
+									1854.2325
+								data = gesture_phase1
+									1867.0975
+								data = gesture_phase2
+									1866.445
+							num_trees = 64
+								data = creditcard
+									2572.475
+								data = eeg
+									2573.4775
+								data = gesture_phase1
+									2588.56
+								data = gesture_phase2
+									2590.6675
+							num_trees = 128
+								data = creditcard
+									4028.3175
+								data = eeg
+									4017.29
+								data = gesture_phase1
+									4036.065
+								data = gesture_phase2
+									4033.4275
+							num_trees = 256
+								data = creditcard
+									6911.9125
+								data = eeg
+									6890.56
+								data = gesture_phase1
+									6914.3675
+								data = gesture_phase2
+									6905.96
+							num_trees = 512
+								data = creditcard
+									13124.96
+								data = eeg
+									13016.1125
+								data = gesture_phase1
+									13245.1225
+								data = gesture_phase2
+									13135.6225
+							num_trees = 1024
+								data = creditcard
+									25723.0775
+								data = eeg
+									25918.2375
+								data = gesture_phase1
+									25505.9475
+								data = gesture_phase2
+									25873.2525
+						threads = 32
+							num_trees = 32
+								data = creditcard
+									2769.395
+								data = eeg
+									2768.1
+								data = gesture_phase1
+									2780.5675
+								data = gesture_phase2
+									2778.4275
+							num_trees = 64
+								data = creditcard
+									3509.8475
+								data = eeg
+									3506.2475
+								data = gesture_phase1
+									3519.9875
+								data = gesture_phase2
+									3521.795
+							num_trees = 128
+								data = creditcard
+									4950.05
+								data = eeg
+									4937.615
+								data = gesture_phase1
+									4960.0175
+								data = gesture_phase2
+									4952.8475
+							num_trees = 256
+								data = creditcard
+									7829.495
+								data = eeg
+									7813.7975
+								data = gesture_phase1
+									7834.565
+								data = gesture_phase2
+									7828.53
+							num_trees = 512
+								data = creditcard
+									13600.9125
+								data = eeg
+									13543.6025
+								data = gesture_phase1
+									13627.6825
+								data = gesture_phase2
+									13614.4975
+							num_trees = 1024
+								data = creditcard
+									25336.955
+								data = eeg
+									25592.3075
+								data = gesture_phase1
+									25480.8125
+								data = gesture_phase2
+									25573.3625
+						threads = 64
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+									5339.4875
+								data = eeg
+									5334.5
+								data = gesture_phase1
+									5350.715
+								data = gesture_phase2
+									5351.955
+							num_trees = 128
+								data = creditcard
+									6831.6725
+								data = eeg
+									6818.9
+								data = gesture_phase1
+									6841.1
+								data = gesture_phase2
+									6834.5875
+							num_trees = 256
+								data = creditcard
+									9702.9975
+								data = eeg
+									9681.46
+								data = gesture_phase1
+									9704.3975
+								data = gesture_phase2
+									9699.025
+							num_trees = 512
+								data = creditcard
+									15424.79
+								data = eeg
+									15384.145
+								data = gesture_phase1
+									15449.97
+								data = gesture_phase2
+									15426.81
+							num_trees = 1024
+								data = creditcard
+									26955.495
+								data = eeg
+									26885.5125
+								data = gesture_phase1
+									26960.1575
+								data = gesture_phase2
+									26939.0225
+						threads = 128
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 128
+								data = creditcard
+									10494.99
+								data = eeg
+									10481.555
+								data = gesture_phase1
+									10505.3325
+								data = gesture_phase2
+									10496.7275
+							num_trees = 256
+								data = creditcard
+									13473.0
+								data = eeg
+									13452.615
+								data = gesture_phase1
+									13477.1575
+								data = gesture_phase2
+									13472.035
+							num_trees = 512
+								data = creditcard
+									19194.4075
+								data = eeg
+									19151.4
+								data = gesture_phase1
+									19213.9775
+								data = gesture_phase2
+									19193.1525
+							num_trees = 1024
+								data = creditcard
+									30647.37
+								data = eeg
+									30579.21
+								data = gesture_phase1
+									30660.0025
+								data = gesture_phase2
+									30642.9325
+					min_leaf_samples = 10
+						threads = 1
+							num_trees = 32
+								data = creditcard
+									1393.1975
+								data = eeg
+									1391.7225
+								data = gesture_phase1
+									1430.0425
+								data = gesture_phase2
+									1397.1725
+							num_trees = 64
+								data = creditcard
+									2661.56
+								data = eeg
+									2667.475
+								data = gesture_phase1
+									2665.5925
+								data = gesture_phase2
+									2666.445
+							num_trees = 128
+								data = creditcard
+									4985.2025
+								data = eeg
+									5083.685
+								data = gesture_phase1
+									5137.435
+								data = gesture_phase2
+									5036.72
+							num_trees = 256
+								data = creditcard
+									9872.9925
+								data = eeg
+									9902.4425
+								data = gesture_phase1
+									9979.53
+								data = gesture_phase2
+									10141.0425
+							num_trees = 512
+								data = creditcard
+									19310.6175
+								data = eeg
+									19409.91
+								data = gesture_phase1
+									19552.24
+								data = gesture_phase2
+									19622.0625
+							num_trees = 1024
+								data = creditcard
+									38175.4575
+								data = eeg
+									38520.765
+								data = gesture_phase1
+									38847.215
+								data = gesture_phase2
+									38941.4725
+						threads = 2
+							num_trees = 32
+								data = creditcard
+									1165.275
+								data = eeg
+									1171.375
+								data = gesture_phase1
+									1202.5775
+								data = gesture_phase2
+									1163.9775
+							num_trees = 64
+								data = creditcard
+									2221.1175
+								data = eeg
+									2227.2025
+								data = gesture_phase1
+									2213.44
+								data = gesture_phase2
+									2238.7575
+							num_trees = 128
+								data = creditcard
+									4313.12
+								data = eeg
+									4224.2
+								data = gesture_phase1
+									4224.01
+								data = gesture_phase2
+									4217.715
+							num_trees = 256
+								data = creditcard
+									8056.0275
+								data = eeg
+									8040.5375
+								data = gesture_phase1
+									8138.4125
+								data = gesture_phase2
+									8059.2825
+							num_trees = 512
+								data = creditcard
+									15396.4625
+								data = eeg
+									15276.88
+								data = gesture_phase1
+									15533.8625
+								data = gesture_phase2
+									15592.4525
+							num_trees = 1024
+								data = creditcard
+									30342.205
+								data = eeg
+									30376.7725
+								data = gesture_phase1
+									30370.745
+								data = gesture_phase2
+									30567.5875
+						threads = 4
+							num_trees = 32
+								data = creditcard
+									1207.4
+								data = eeg
+									1198.0275
+								data = gesture_phase1
+									1217.605
+								data = gesture_phase2
+									1213.9525
+							num_trees = 64
+								data = creditcard
+									1989.62
+								data = eeg
+									1946.9275
+								data = gesture_phase1
+									1999.165
+								data = gesture_phase2
+									1981.8325
+							num_trees = 128
+								data = creditcard
+									3835.94
+								data = eeg
+									3842.755
+								data = gesture_phase1
+									3883.1225
+								data = gesture_phase2
+									3835.9525
+							num_trees = 256
+								data = creditcard
+									7296.1725
+								data = eeg
+									7345.405
+								data = gesture_phase1
+									7506.84
+								data = gesture_phase2
+									7369.06
+							num_trees = 512
+								data = creditcard
+									14297.2175
+								data = eeg
+									14033.29
+								data = gesture_phase1
+									14189.7625
+								data = gesture_phase2
+									14231.69
+							num_trees = 1024
+								data = creditcard
+									27093.4725
+								data = eeg
+									27273.0425
+								data = gesture_phase1
+									27234.1525
+								data = gesture_phase2
+									27219.27
+						threads = 8
+							num_trees = 32
+								data = creditcard
+									1397.5375
+								data = eeg
+									1394.935
+								data = gesture_phase1
+									1410.9675
+								data = gesture_phase2
+									1410.0975
+							num_trees = 64
+								data = creditcard
+									2134.3425
+								data = eeg
+									2131.4525
+								data = gesture_phase1
+									2143.745
+								data = gesture_phase2
+									2141.0375
+							num_trees = 128
+								data = creditcard
+									3610.55
+								data = eeg
+									3579.3025
+								data = gesture_phase1
+									3625.7
+								data = gesture_phase2
+									3590.53
+							num_trees = 256
+								data = creditcard
+									6926.15
+								data = eeg
+									6886.755
+								data = gesture_phase1
+									6941.19
+								data = gesture_phase2
+									7012.445
+							num_trees = 512
+								data = creditcard
+									13701.5325
+								data = eeg
+									13569.275
+								data = gesture_phase1
+									13688.595
+								data = gesture_phase2
+									13592.715
+							num_trees = 1024
+								data = creditcard
+									26740.8925
+								data = eeg
+									26109.765
+								data = gesture_phase1
+									26420.6825
+								data = gesture_phase2
+									26432.935
+						threads = 16
+							num_trees = 32
+								data = creditcard
+									1856.93
+								data = eeg
+									1852.675
+								data = gesture_phase1
+									1868.205
+								data = gesture_phase2
+									1863.4525
+							num_trees = 64
+								data = creditcard
+									2578.8525
+								data = eeg
+									2572.2025
+								data = gesture_phase1
+									2586.8375
+								data = gesture_phase2
+									2582.3475
+							num_trees = 128
+								data = creditcard
+									4023.21
+								data = eeg
+									4007.545
+								data = gesture_phase1
+									4032.14
+								data = gesture_phase2
+									4035.7175
+							num_trees = 256
+								data = creditcard
+									6904.8975
+								data = eeg
+									6892.0475
+								data = gesture_phase1
+									6918.23
+								data = gesture_phase2
+									6907.31
+							num_trees = 512
+								data = creditcard
+									13175.2775
+								data = eeg
+									12944.33
+								data = gesture_phase1
+									13113.0125
+								data = gesture_phase2
+									13005.3475
+							num_trees = 1024
+								data = creditcard
+									25956.685
+								data = eeg
+									25718.05
+								data = gesture_phase1
+									25926.25
+								data = gesture_phase2
+									25692.48
+						threads = 32
+							num_trees = 32
+								data = creditcard
+									2767.5425
+								data = eeg
+									2766.735
+								data = gesture_phase1
+									2781.8075
+								data = gesture_phase2
+									2777.215
+							num_trees = 64
+								data = creditcard
+									3509.835
+								data = eeg
+									3504.1725
+								data = gesture_phase1
+									3519.655
+								data = gesture_phase2
+									3516.0725
+							num_trees = 128
+								data = creditcard
+									4946.995
+								data = eeg
+									4933.6075
+								data = gesture_phase1
+									4950.1625
+								data = gesture_phase2
+									4954.7775
+							num_trees = 256
+								data = creditcard
+									7826.9175
+								data = eeg
+									7800.8375
+								data = gesture_phase1
+									7831.265
+								data = gesture_phase2
+									7819.1175
+							num_trees = 512
+								data = creditcard
+									13581.49
+								data = eeg
+									13525.58
+								data = gesture_phase1
+									13614.2175
+								data = gesture_phase2
+									13543.3425
+							num_trees = 1024
+								data = creditcard
+									25797.2475
+								data = eeg
+									25302.8475
+								data = gesture_phase1
+									25431.4875
+								data = gesture_phase2
+									25395.7275
+						threads = 64
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+									5340.525
+								data = eeg
+									5334.1075
+								data = gesture_phase1
+									5349.79
+								data = gesture_phase2
+									5344.9075
+							num_trees = 128
+								data = creditcard
+									6826.985
+								data = eeg
+									6813.47
+								data = gesture_phase1
+									6831.0625
+								data = gesture_phase2
+									6833.685
+							num_trees = 256
+								data = creditcard
+									9695.2925
+								data = eeg
+									9669.4875
+								data = gesture_phase1
+									9703.9625
+								data = gesture_phase2
+									9690.395
+							num_trees = 512
+								data = creditcard
+									15437.69
+								data = eeg
+									15371.67
+								data = gesture_phase1
+									15439.38
+								data = gesture_phase2
+									15391.625
+							num_trees = 1024
+								data = creditcard
+									26942.75
+								data = eeg
+									26811.055
+								data = gesture_phase1
+									26945.195
+								data = gesture_phase2
+									26875.5625
+						threads = 128
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 128
+								data = creditcard
+									10490.4525
+								data = eeg
+									10476.36
+								data = gesture_phase1
+									10494.19
+								data = gesture_phase2
+									10497.9425
+							num_trees = 256
+								data = creditcard
+									13468.14
+								data = eeg
+									13442.925
+								data = gesture_phase1
+									13475.4675
+								data = gesture_phase2
+									13462.17
+							num_trees = 512
+								data = creditcard
+									19199.545
+								data = eeg
+									19135.24
+								data = gesture_phase1
+									19205.625
+								data = gesture_phase2
+									19156.745
+							num_trees = 1024
+								data = creditcard
+									30636.8975
+								data = eeg
+									30506.675
+								data = gesture_phase1
+									30642.165
+								data = gesture_phase2
+									30577.2675
+					min_leaf_samples = 50
+						threads = 1
+							num_trees = 32
+								data = creditcard
+									1391.265
+								data = eeg
+									1414.2975
+								data = gesture_phase1
+									1410.96
+								data = gesture_phase2
+									1380.555
+							num_trees = 64
+								data = creditcard
+									2618.6025
+								data = eeg
+									2656.4425
+								data = gesture_phase1
+									2668.1325
+								data = gesture_phase2
+									2670.125
+							num_trees = 128
+								data = creditcard
+									5043.6425
+								data = eeg
+									5072.785
+								data = gesture_phase1
+									5112.1925
+								data = gesture_phase2
+									5048.94
+							num_trees = 256
+								data = creditcard
+									9832.1525
+								data = eeg
+									9845.4625
+								data = gesture_phase1
+									10080.7425
+								data = gesture_phase2
+									9966.3275
+							num_trees = 512
+								data = creditcard
+									19352.495
+								data = eeg
+									19585.235
+								data = gesture_phase1
+									19830.03
+								data = gesture_phase2
+									19669.32
+							num_trees = 1024
+								data = creditcard
+									38599.5575
+								data = eeg
+									38586.4075
+								data = gesture_phase1
+									39204.555
+								data = gesture_phase2
+									39195.02
+						threads = 2
+							num_trees = 32
+								data = creditcard
+									1186.37
+								data = eeg
+									1148.52
+								data = gesture_phase1
+									1168.9625
+								data = gesture_phase2
+									1163.4525
+							num_trees = 64
+								data = creditcard
+									2231.9575
+								data = eeg
+									2193.8825
+								data = gesture_phase1
+									2220.4925
+								data = gesture_phase2
+									2181.8425
+							num_trees = 128
+								data = creditcard
+									4249.8275
+								data = eeg
+									4178.735
+								data = gesture_phase1
+									4154.26
+								data = gesture_phase2
+									4164.3825
+							num_trees = 256
+								data = creditcard
+									8080.1525
+								data = eeg
+									8005.7625
+								data = gesture_phase1
+									8063.13
+								data = gesture_phase2
+									8032.4025
+							num_trees = 512
+								data = creditcard
+									15521.3725
+								data = eeg
+									15458.0225
+								data = gesture_phase1
+									15479.9825
+								data = gesture_phase2
+									15515.1125
+							num_trees = 1024
+								data = creditcard
+									30408.04
+								data = eeg
+									30212.535
+								data = gesture_phase1
+									30604.3375
+								data = gesture_phase2
+									30524.2325
+						threads = 4
+							num_trees = 32
+								data = creditcard
+									1205.0475
+								data = eeg
+									1187.175
+								data = gesture_phase1
+									1196.775
+								data = gesture_phase2
+									1191.7
+							num_trees = 64
+								data = creditcard
+									2007.775
+								data = eeg
+									1971.095
+								data = gesture_phase1
+									1957.515
+								data = gesture_phase2
+									1943.2675
+							num_trees = 128
+								data = creditcard
+									3896.48
+								data = eeg
+									3777.2175
+								data = gesture_phase1
+									3795.2875
+								data = gesture_phase2
+									3727.9575
+							num_trees = 256
+								data = creditcard
+									7470.7525
+								data = eeg
+									7232.0625
+								data = gesture_phase1
+									7294.065
+								data = gesture_phase2
+									7213.1775
+							num_trees = 512
+								data = creditcard
+									14220.285
+								data = eeg
+									14184.1325
+								data = gesture_phase1
+									14058.9325
+								data = gesture_phase2
+									13893.7675
+							num_trees = 1024
+								data = creditcard
+									27513.0775
+								data = eeg
+									27118.525
+								data = gesture_phase1
+									27186.2925
+								data = gesture_phase2
+									26663.2325
+						threads = 8
+							num_trees = 32
+								data = creditcard
+									1398.0025
+								data = eeg
+									1392.15
+								data = gesture_phase1
+									1395.6025
+								data = gesture_phase2
+									1392.5975
+							num_trees = 64
+								data = creditcard
+									2145.4575
+								data = eeg
+									2120.405
+								data = gesture_phase1
+									2122.98
+								data = gesture_phase2
+									2100.05
+							num_trees = 128
+								data = creditcard
+									3600.3425
+								data = eeg
+									3559.9825
+								data = gesture_phase1
+									3587.67
+								data = gesture_phase2
+									3533.685
+							num_trees = 256
+								data = creditcard
+									7021.0675
+								data = eeg
+									6880.5275
+								data = gesture_phase1
+									6841.715
+								data = gesture_phase2
+									6747.51
+							num_trees = 512
+								data = creditcard
+									13766.2175
+								data = eeg
+									13457.1325
+								data = gesture_phase1
+									13417.64
+								data = gesture_phase2
+									13171.3425
+							num_trees = 1024
+								data = creditcard
+									26271.3725
+								data = eeg
+									26181.3275
+								data = gesture_phase1
+									25938.8075
+								data = gesture_phase2
+									25481.3725
+						threads = 16
+							num_trees = 32
+								data = creditcard
+									1858.4875
+								data = eeg
+									1850.9175
+								data = gesture_phase1
+									1856.245
+								data = gesture_phase2
+									1848.87
+							num_trees = 64
+								data = creditcard
+									2586.33
+								data = eeg
+									2564.885
+								data = gesture_phase1
+									2569.5825
+								data = gesture_phase2
+									2544.7375
+							num_trees = 128
+								data = creditcard
+									4019.8875
+								data = eeg
+									3984.6025
+								data = gesture_phase1
+									4000.9725
+								data = gesture_phase2
+									3952.78
+							num_trees = 256
+								data = creditcard
+									6905.895
+								data = eeg
+									6815.6175
+								data = gesture_phase1
+									6840.7
+								data = gesture_phase2
+									6766.1825
+							num_trees = 512
+								data = creditcard
+									13193.2225
+								data = eeg
+									12989.705
+								data = gesture_phase1
+									12866.79
+								data = gesture_phase2
+									12932.7625
+							num_trees = 1024
+								data = creditcard
+									25926.31
+								data = eeg
+									25354.0625
+								data = gesture_phase1
+									25466.0725
+								data = gesture_phase2
+									24972.31
+						threads = 32
+							num_trees = 32
+								data = creditcard
+									2770.135
+								data = eeg
+									2761.8725
+								data = gesture_phase1
+									2766.125
+								data = gesture_phase2
+									2759.9425
+							num_trees = 64
+								data = creditcard
+									3518.54
+								data = eeg
+									3498.605
+								data = gesture_phase1
+									3500.8525
+								data = gesture_phase2
+									3478.645
+							num_trees = 128
+								data = creditcard
+									4944.58
+								data = eeg
+									4912.3425
+								data = gesture_phase1
+									4917.995
+								data = gesture_phase2
+									4873.3225
+							num_trees = 256
+								data = creditcard
+									7827.0925
+								data = eeg
+									7736.0325
+								data = gesture_phase1
+									7749.895
+								data = gesture_phase2
+									7667.4675
+							num_trees = 512
+								data = creditcard
+									13581.58
+								data = eeg
+									13410.3125
+								data = gesture_phase1
+									13397.0775
+								data = gesture_phase2
+									13233.865
+							num_trees = 1024
+								data = creditcard
+									25404.635
+								data = eeg
+									25172.0175
+								data = gesture_phase1
+									25070.0125
+								data = gesture_phase2
+									24696.155
+						threads = 64
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+									5347.775
+								data = eeg
+									5328.94
+								data = gesture_phase1
+									5332.035
+								data = gesture_phase2
+									5306.0575
+							num_trees = 128
+								data = creditcard
+									6826.58
+								data = eeg
+									6791.38
+								data = gesture_phase1
+									6800.7475
+								data = gesture_phase2
+									6754.47
+							num_trees = 256
+								data = creditcard
+									9697.845
+								data = eeg
+									9604.855
+								data = gesture_phase1
+									9621.035
+								data = gesture_phase2
+									9531.17
+							num_trees = 512
+								data = creditcard
+									15425.1925
+								data = eeg
+									15265.4375
+								data = gesture_phase1
+									15247.395
+								data = gesture_phase2
+									15062.83
+							num_trees = 1024
+								data = creditcard
+									26935.6825
+								data = eeg
+									26640.29
+								data = gesture_phase1
+									26586.6175
+								data = gesture_phase2
+									26211.915
+						threads = 128
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 128
+								data = creditcard
+									10489.2025
+								data = eeg
+									10454.03
+								data = gesture_phase1
+									10464.3725
+								data = gesture_phase2
+									10417.3
+							num_trees = 256
+								data = creditcard
+									13469.4875
+								data = eeg
+									13377.2175
+								data = gesture_phase1
+									13394.1275
+								data = gesture_phase2
+									13303.9225
+							num_trees = 512
+								data = creditcard
+									19192.775
+								data = eeg
+									19026.73
+								data = gesture_phase1
+									19012.6575
+								data = gesture_phase2
+									18829.085
+							num_trees = 1024
+								data = creditcard
+									30632.1125
+								data = eeg
+									30330.3975
+								data = gesture_phase1
+									30288.5775
+								data = gesture_phase2
+									29907.6625
+tree_depth = 10
+					min_leaf_samples = 5
+						threads = 1
+							num_trees = 32
+								data = creditcard
+									2048.1725
+								data = eeg
+									2032.2275
+								data = gesture_phase1
+									2016.5325
+								data = gesture_phase2
+									2011.8775
+							num_trees = 64
+								data = creditcard
+									3951.0075
+								data = eeg
+									3897.7375
+								data = gesture_phase1
+									3871.7275
+								data = gesture_phase2
+									3842.475
+							num_trees = 128
+								data = creditcard
+									7528.2225
+								data = eeg
+									7671.26
+								data = gesture_phase1
+									7671.41
+								data = gesture_phase2
+									7613.9475
+							num_trees = 256
+								data = creditcard
+									14857.7925
+								data = eeg
+									14792.3575
+								data = gesture_phase1
+									14992.3375
+								data = gesture_phase2
+									14953.5725
+							num_trees = 512
+								data = creditcard
+									29083.1025
+								data = eeg
+									29120.785
+								data = gesture_phase1
+									29727.98
+								data = gesture_phase2
+									29598.4875
+							num_trees = 1024
+								data = creditcard
+									58378.9625
+								data = eeg
+									58926.1875
+								data = gesture_phase1
+									59284.965
+								data = gesture_phase2
+									59026.03
+						threads = 2
+							num_trees = 32
+								data = creditcard
+									1709.2075
+								data = eeg
+									1693.0225
+								data = gesture_phase1
+									1758.825
+								data = gesture_phase2
+									1698.2425
+							num_trees = 64
+								data = creditcard
+									3275.5075
+								data = eeg
+									3178.1075
+								data = gesture_phase1
+									3266.2875
+								data = gesture_phase2
+									3256.4625
+							num_trees = 128
+								data = creditcard
+									6362.9575
+								data = eeg
+									6167.8925
+								data = gesture_phase1
+									6290.25
+								data = gesture_phase2
+									6235.5725
+							num_trees = 256
+								data = creditcard
+									12066.15
+								data = eeg
+									11934.91
+								data = gesture_phase1
+									11972.895
+								data = gesture_phase2
+									11755.805
+							num_trees = 512
+								data = creditcard
+									23485.1125
+								data = eeg
+									23441.875
+								data = gesture_phase1
+									23296.2275
+								data = gesture_phase2
+									23504.8075
+							num_trees = 1024
+								data = creditcard
+									45921.995
+								data = eeg
+									45625.0275
+								data = gesture_phase1
+									46195.8525
+								data = gesture_phase2
+									46118.7825
+						threads = 4
+							num_trees = 32
+								data = creditcard
+									1576.97
+								data = eeg
+									1554.0225
+								data = gesture_phase1
+									1573.8225
+								data = gesture_phase2
+									1566.475
+							num_trees = 64
+								data = creditcard
+									2911.57
+								data = eeg
+									2849.6775
+								data = gesture_phase1
+									2837.84
+								data = gesture_phase2
+									2823.4925
+							num_trees = 128
+								data = creditcard
+									5709.73
+								data = eeg
+									5630.4525
+								data = gesture_phase1
+									5653.2575
+								data = gesture_phase2
+									5523.5475
+							num_trees = 256
+								data = creditcard
+									11134.3225
+								data = eeg
+									11053.1175
+								data = gesture_phase1
+									10788.205
+								data = gesture_phase2
+									10642.6175
+							num_trees = 512
+								data = creditcard
+									21228.5625
+								data = eeg
+									20995.485
+								data = gesture_phase1
+									20759.6025
+								data = gesture_phase2
+									20740.35
+							num_trees = 1024
+								data = creditcard
+									40767.1225
+								data = eeg
+									40596.31
+								data = gesture_phase1
+									40682.515
+								data = gesture_phase2
+									40306.4
+						threads = 8
+							num_trees = 32
+								data = creditcard
+									1749.1625
+								data = eeg
+									1729.9325
+								data = gesture_phase1
+									1746.4225
+								data = gesture_phase2
+									1729.2075
+							num_trees = 64
+								data = creditcard
+									2863.72
+								data = eeg
+									2863.9075
+								data = gesture_phase1
+									2868.38
+								data = gesture_phase2
+									2826.2125
+							num_trees = 128
+								data = creditcard
+									5277.4425
+								data = eeg
+									5132.72
+								data = gesture_phase1
+									5233.835
+								data = gesture_phase2
+									5091.8
+							num_trees = 256
+								data = creditcard
+									10520.505
+								data = eeg
+									10399.7725
+								data = gesture_phase1
+									10679.5725
+								data = gesture_phase2
+									10105.3525
+							num_trees = 512
+								data = creditcard
+									21215.0775
+								data = eeg
+									20089.0125
+								data = gesture_phase1
+									19821.825
+								data = gesture_phase2
+									19581.92
+							num_trees = 1024
+								data = creditcard
+									39476.9125
+								data = eeg
+									38903.9475
+								data = gesture_phase1
+									39074.6975
+								data = gesture_phase2
+									38464.0775
+						threads = 16
+							num_trees = 32
+								data = creditcard
+									2205.75
+								data = eeg
+									2182.865
+								data = gesture_phase1
+									2201.6575
+								data = gesture_phase2
+									2183.6675
+							num_trees = 64
+								data = creditcard
+									3286.0625
+								data = eeg
+									3248.9325
+								data = gesture_phase1
+									3261.2025
+								data = gesture_phase2
+									3248.24
+							num_trees = 128
+								data = creditcard
+									5445.305
+								data = eeg
+									5358.97
+								data = gesture_phase1
+									5387.3275
+								data = gesture_phase2
+									5316.3875
+							num_trees = 256
+								data = creditcard
+									10047.1675
+								data = eeg
+									9785.615
+								data = gesture_phase1
+									10033.5275
+								data = gesture_phase2
+									9664.75
+							num_trees = 512
+								data = creditcard
+									19778.56
+								data = eeg
+									19295.0225
+								data = gesture_phase1
+									19181.8275
+								data = gesture_phase2
+									19021.51
+							num_trees = 1024
+								data = creditcard
+									39033.19
+								data = eeg
+									38244.945
+								data = gesture_phase1
+									38114.91
+								data = gesture_phase2
+									37474.265
+						threads = 32
+							num_trees = 32
+								data = creditcard
+									3120.84
+								data = eeg
+									3095.625
+								data = gesture_phase1
+									3113.0325
+								data = gesture_phase2
+									3093.815
+							num_trees = 64
+								data = creditcard
+									4213.0525
+								data = eeg
+									4174.0825
+								data = gesture_phase1
+									4185.63
+								data = gesture_phase2
+									4168.935
+							num_trees = 128
+								data = creditcard
+									6364.9375
+								data = eeg
+									6279.2625
+								data = gesture_phase1
+									6294.445
+								data = gesture_phase2
+									6223.5775
+							num_trees = 256
+								data = creditcard
+									10678.67
+								data = eeg
+									10539.8075
+								data = gesture_phase1
+									10512.175
+								data = gesture_phase2
+									10402.7575
+							num_trees = 512
+								data = creditcard
+									19607.705
+								data = eeg
+									19234.73
+								data = gesture_phase1
+									19242.485
+								data = gesture_phase2
+									19139.4775
+							num_trees = 1024
+								data = creditcard
+									38047.6475
+								data = eeg
+									37174.715
+								data = gesture_phase1
+									37528.0875
+								data = gesture_phase2
+									36901.97
+						threads = 64
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+									6045.1375
+								data = eeg
+									6006.54
+								data = gesture_phase1
+									6013.8225
+								data = gesture_phase2
+									5997.455
+							num_trees = 128
+								data = creditcard
+									8238.42
+								data = eeg
+									8155.7575
+								data = gesture_phase1
+									8169.805
+								data = gesture_phase2
+									8097.5525
+							num_trees = 256
+								data = creditcard
+									12529.1175
+								data = eeg
+									12380.74
+								data = gesture_phase1
+									12358.8125
+								data = gesture_phase2
+									12239.105
+							num_trees = 512
+								data = creditcard
+									21083.1975
+								data = eeg
+									20756.4675
+								data = gesture_phase1
+									20787.2675
+								data = gesture_phase2
+									20521.72
+							num_trees = 1024
+								data = creditcard
+									38782.6075
+								data = eeg
+									38022.335
+								data = gesture_phase1
+									37929.0225
+								data = gesture_phase2
+									37406.56
+						threads = 128
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 128
+								data = creditcard
+									11901.4025
+								data = eeg
+									11818.3
+								data = gesture_phase1
+									11831.8925
+								data = gesture_phase2
+									11759.405
+							num_trees = 256
+								data = creditcard
+									16297.885
+								data = eeg
+									16150.165
+								data = gesture_phase1
+									16126.9575
+								data = gesture_phase2
+									16006.515
+							num_trees = 512
+								data = creditcard
+									24842.96
+								data = eeg
+									24514.5275
+								data = gesture_phase1
+									24541.01
+								data = gesture_phase2
+									24277.8125
+							num_trees = 1024
+								data = creditcard
+									41919.385
+								data = eeg
+									41355.295
+								data = gesture_phase1
+									41376.63
+								data = gesture_phase2
+									40791.9925
+					min_leaf_samples = 10
+						threads = 1
+							num_trees = 32
+								data = creditcard
+									1999.545
+								data = eeg
+									2022.5025
+								data = gesture_phase1
+									1978.98
+								data = gesture_phase2
+									1935.585
+							num_trees = 64
+								data = creditcard
+									3941.5725
+								data = eeg
+									3855.825
+								data = gesture_phase1
+									3865.3175
+								data = gesture_phase2
+									3781.1925
+							num_trees = 128
+								data = creditcard
+									7569.9475
+								data = eeg
+									7461.9475
+								data = gesture_phase1
+									7571.8525
+								data = gesture_phase2
+									7499.52
+							num_trees = 256
+								data = creditcard
+									14905.865
+								data = eeg
+									14526.64
+								data = gesture_phase1
+									14915.7825
+								data = gesture_phase2
+									14702.1675
+							num_trees = 512
+								data = creditcard
+									29705.38
+								data = eeg
+									29558.1125
+								data = gesture_phase1
+									29768.585
+								data = gesture_phase2
+									29196.6625
+							num_trees = 1024
+								data = creditcard
+									58338.21
+								data = eeg
+									58556.315
+								data = gesture_phase1
+									59228.145
+								data = gesture_phase2
+									58079.475
+						threads = 2
+							num_trees = 32
+								data = creditcard
+									1773.09
+								data = eeg
+									1640.87
+								data = gesture_phase1
+									1655.225
+								data = gesture_phase2
+									1672.6175
+							num_trees = 64
+								data = creditcard
+									3326.5475
+								data = eeg
+									3193.94
+								data = gesture_phase1
+									3207.8275
+								data = gesture_phase2
+									3170.4075
+							num_trees = 128
+								data = creditcard
+									6377.5325
+								data = eeg
+									6227.2275
+								data = gesture_phase1
+									6201.2075
+								data = gesture_phase2
+									6019.935
+							num_trees = 256
+								data = creditcard
+									12154.5225
+								data = eeg
+									11968.625
+								data = gesture_phase1
+									11958.3425
+								data = gesture_phase2
+									11740.1625
+							num_trees = 512
+								data = creditcard
+									23580.55
+								data = eeg
+									23110.44
+								data = gesture_phase1
+									23241.7775
+								data = gesture_phase2
+									22889.82
+							num_trees = 1024
+								data = creditcard
+									46370.755
+								data = eeg
+									45494.535
+								data = gesture_phase1
+									45626.83
+								data = gesture_phase2
+									45089.6925
+						threads = 4
+							num_trees = 32
+								data = creditcard
+									1594.055
+								data = eeg
+									1569.2975
+								data = gesture_phase1
+									1570.06
+								data = gesture_phase2
+									1561.7575
+							num_trees = 64
+								data = creditcard
+									2878.945
+								data = eeg
+									2814.405
+								data = gesture_phase1
+									2872.1975
+								data = gesture_phase2
+									2805.0675
+							num_trees = 128
+								data = creditcard
+									5736.705
+								data = eeg
+									5527.4
+								data = gesture_phase1
+									5658.5875
+								data = gesture_phase2
+									5386.8575
+							num_trees = 256
+								data = creditcard
+									11248.2125
+								data = eeg
+									10761.43
+								data = gesture_phase1
+									10598.9475
+								data = gesture_phase2
+									10592.495
+							num_trees = 512
+								data = creditcard
+									21083.6525
+								data = eeg
+									20831.21
+								data = gesture_phase1
+									20888.265
+								data = gesture_phase2
+									20316.92
+							num_trees = 1024
+								data = creditcard
+									41397.04
+								data = eeg
+									39949.9725
+								data = gesture_phase1
+									40482.28
+								data = gesture_phase2
+									39750.435
+						threads = 8
+							num_trees = 32
+								data = creditcard
+									1751.49
+								data = eeg
+									1729.0475
+								data = gesture_phase1
+									1735.1775
+								data = gesture_phase2
+									1715.735
+							num_trees = 64
+								data = creditcard
+									2863.265
+								data = eeg
+									2835.0525
+								data = gesture_phase1
+									2831.4775
+								data = gesture_phase2
+									2806.7075
+							num_trees = 128
+								data = creditcard
+									5322.53
+								data = eeg
+									5102.6375
+								data = gesture_phase1
+									5211.9925
+								data = gesture_phase2
+									5067.2625
+							num_trees = 256
+								data = creditcard
+									10631.405
+								data = eeg
+									10204.865
+								data = gesture_phase1
+									10365.935
+								data = gesture_phase2
+									9888.69
+							num_trees = 512
+								data = creditcard
+									20602.3525
+								data = eeg
+									19627.97
+								data = gesture_phase1
+									19887.44
+								data = gesture_phase2
+									19232.095
+							num_trees = 1024
+								data = creditcard
+									39649.8975
+								data = eeg
+									38419.7575
+								data = gesture_phase1
+									38251.03
+								data = gesture_phase2
+									37576.91
+						threads = 16
+							num_trees = 32
+								data = creditcard
+									2208.2425
+								data = eeg
+									2184.07
+								data = gesture_phase1
+									2187.1975
+								data = gesture_phase2
+									2172.2925
+							num_trees = 64
+								data = creditcard
+									3286.0075
+								data = eeg
+									3234.835
+								data = gesture_phase1
+									3231.2175
+								data = gesture_phase2
+									3218.19
+							num_trees = 128
+								data = creditcard
+									5453.3075
+								data = eeg
+									5331.0675
+								data = gesture_phase1
+									5379.805
+								data = gesture_phase2
+									5283.06
+							num_trees = 256
+								data = creditcard
+									9906.8325
+								data = eeg
+									9737.1125
+								data = gesture_phase1
+									9797.295
+								data = gesture_phase2
+									9524.555
+							num_trees = 512
+								data = creditcard
+									19564.6975
+								data = eeg
+									19153.065
+								data = gesture_phase1
+									19242.1975
+								data = gesture_phase2
+									18558.83
+							num_trees = 1024
+								data = creditcard
+									38385.53
+								data = eeg
+									37671.9175
+								data = gesture_phase1
+									37945.445
+								data = gesture_phase2
+									36790.885
+						threads = 32
+							num_trees = 32
+								data = creditcard
+									3120.205
+								data = eeg
+									3094.75
+								data = gesture_phase1
+									3097.0
+								data = gesture_phase2
+									3083.645
+							num_trees = 64
+								data = creditcard
+									4210.1775
+								data = eeg
+									4161.62
+								data = gesture_phase1
+									4157.895
+								data = gesture_phase2
+									4136.695
+							num_trees = 128
+								data = creditcard
+									6367.965
+								data = eeg
+									6244.0775
+								data = gesture_phase1
+									6270.03
+								data = gesture_phase2
+									6173.3875
+							num_trees = 256
+								data = creditcard
+									10666.195
+								data = eeg
+									10444.3325
+								data = gesture_phase1
+									10423.8225
+								data = gesture_phase2
+									10268.5175
+							num_trees = 512
+								data = creditcard
+									19650.8925
+								data = eeg
+									19065.0325
+								data = gesture_phase1
+									19179.0525
+								data = gesture_phase2
+									18678.1925
+							num_trees = 1024
+								data = creditcard
+									38407.1525
+								data = eeg
+									36610.235
+								data = gesture_phase1
+									36850.1575
+								data = gesture_phase2
+									36284.7675
+						threads = 64
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+									6041.54
+								data = eeg
+									5991.605
+								data = gesture_phase1
+									5986.7325
+								data = gesture_phase2
+									5966.2425
+							num_trees = 128
+								data = creditcard
+									8243.915
+								data = eeg
+									8122.5875
+								data = gesture_phase1
+									8144.4625
+								data = gesture_phase2
+									8047.94
+							num_trees = 256
+								data = creditcard
+									12514.065
+								data = eeg
+									12296.38
+								data = gesture_phase1
+									12276.2575
+								data = gesture_phase2
+									12107.64
+							num_trees = 512
+								data = creditcard
+									21072.8325
+								data = eeg
+									20614.94
+								data = gesture_phase1
+									20565.16
+								data = gesture_phase2
+									20246.115
+							num_trees = 1024
+								data = creditcard
+									38668.85
+								data = eeg
+									37549.8175
+								data = gesture_phase1
+									37318.83
+								data = gesture_phase2
+									36955.4025
+						threads = 128
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 128
+								data = creditcard
+									11907.495
+								data = eeg
+									11783.865
+								data = gesture_phase1
+									11806.075
+								data = gesture_phase2
+									11708.6025
+							num_trees = 256
+								data = creditcard
+									16282.105
+								data = eeg
+									16061.02
+								data = gesture_phase1
+									16039.8175
+								data = gesture_phase2
+									15876.87
+							num_trees = 512
+								data = creditcard
+									24829.9275
+								data = eeg
+									24351.3125
+								data = gesture_phase1
+									24317.56
+								data = gesture_phase2
+									24000.5425
+							num_trees = 1024
+								data = creditcard
+									41939.8925
+								data = eeg
+									40966.4875
+								data = gesture_phase1
+									40930.71
+								data = gesture_phase2
+									40268.1025
+					min_leaf_samples = 50
+						threads = 1
+							num_trees = 32
+								data = creditcard
+									2052.4175
+								data = eeg
+									1955.02
+								data = gesture_phase1
+									1898.1525
+								data = gesture_phase2
+									1769.5275
+							num_trees = 64
+								data = creditcard
+									3899.63
+								data = eeg
+									3734.545
+								data = gesture_phase1
+									3594.905
+								data = gesture_phase2
+									3447.655
+							num_trees = 128
+								data = creditcard
+									7573.0375
+								data = eeg
+									7464.44
+								data = gesture_phase1
+									7202.985
+								data = gesture_phase2
+									6762.245
+							num_trees = 256
+								data = creditcard
+									15073.695
+								data = eeg
+									14704.0075
+								data = gesture_phase1
+									14297.64
+								data = gesture_phase2
+									13380.6425
+							num_trees = 512
+								data = creditcard
+									29396.6775
+								data = eeg
+									29246.24
+								data = gesture_phase1
+									28299.335
+								data = gesture_phase2
+									26708.9325
+							num_trees = 1024
+								data = creditcard
+									58443.7075
+								data = eeg
+									57927.56
+								data = gesture_phase1
+									56326.5575
+								data = gesture_phase2
+									53024.59
+						threads = 2
+							num_trees = 32
+								data = creditcard
+									1746.8325
+								data = eeg
+									1607.84
+								data = gesture_phase1
+									1590.6925
+								data = gesture_phase2
+									1520.295
+							num_trees = 64
+								data = creditcard
+									3272.39
+								data = eeg
+									3090.795
+								data = gesture_phase1
+									3000.26
+								data = gesture_phase2
+									2768.4275
+							num_trees = 128
+								data = creditcard
+									6218.0775
+								data = eeg
+									6139.3675
+								data = gesture_phase1
+									5726.435
+								data = gesture_phase2
+									5406.0375
+							num_trees = 256
+								data = creditcard
+									11999.425
+								data = eeg
+									11664.72
+								data = gesture_phase1
+									11160.5925
+								data = gesture_phase2
+									10431.3525
+							num_trees = 512
+								data = creditcard
+									23475.04
+								data = eeg
+									22867.725
+								data = gesture_phase1
+									22093.52
+								data = gesture_phase2
+									20651.5125
+							num_trees = 1024
+								data = creditcard
+									46313.16
+								data = eeg
+									45066.8725
+								data = gesture_phase1
+									43378.585
+								data = gesture_phase2
+									40761.175
+						threads = 4
+							num_trees = 32
+								data = creditcard
+									1582.8325
+								data = eeg
+									1524.67
+								data = gesture_phase1
+									1493.935
+								data = gesture_phase2
+									1395.5125
+							num_trees = 64
+								data = creditcard
+									2920.965
+								data = eeg
+									2739.52
+								data = gesture_phase1
+									2665.88
+								data = gesture_phase2
+									2544.3375
+							num_trees = 128
+								data = creditcard
+									5694.345
+								data = eeg
+									5432.2075
+								data = gesture_phase1
+									5143.9725
+								data = gesture_phase2
+									4742.1875
+							num_trees = 256
+								data = creditcard
+									11119.6125
+								data = eeg
+									10351.1725
+								data = gesture_phase1
+									9893.4175
+								data = gesture_phase2
+									9347.6925
+							num_trees = 512
+								data = creditcard
+									21218.5325
+								data = eeg
+									20266.1025
+								data = gesture_phase1
+									19475.7
+								data = gesture_phase2
+									17989.1125
+							num_trees = 1024
+								data = creditcard
+									41224.59
+								data = eeg
+									39246.73
+								data = gesture_phase1
+									37787.5925
+								data = gesture_phase2
+									35180.2425
+						threads = 8
+							num_trees = 32
+								data = creditcard
+									1748.565
+								data = eeg
+									1698.09
+								data = gesture_phase1
+									1655.245
+								data = gesture_phase2
+									1580.6425
+							num_trees = 64
+								data = creditcard
+									2874.215
+								data = eeg
+									2769.2525
+								data = gesture_phase1
+									2683.5
+								data = gesture_phase2
+									2537.7175
+							num_trees = 128
+								data = creditcard
+									5375.445
+								data = eeg
+									5048.0925
+								data = gesture_phase1
+									4829.0575
+								data = gesture_phase2
+									4512.3825
+							num_trees = 256
+								data = creditcard
+									10428.8
+								data = eeg
+									9987.015
+								data = gesture_phase1
+									9490.18
+								data = gesture_phase2
+									8748.8575
+							num_trees = 512
+								data = creditcard
+									20981.975
+								data = eeg
+									19058.24
+								data = gesture_phase1
+									18416.125
+								data = gesture_phase2
+									17101.4625
+							num_trees = 1024
+								data = creditcard
+									39721.5475
+								data = eeg
+									37735.3375
+								data = gesture_phase1
+									35520.665
+								data = gesture_phase2
+									33107.085
+						threads = 16
+							num_trees = 32
+								data = creditcard
+									2201.495
+								data = eeg
+									2152.6975
+								data = gesture_phase1
+									2112.3675
+								data = gesture_phase2
+									2040.47
+							num_trees = 64
+								data = creditcard
+									3288.0575
+								data = eeg
+									3189.105
+								data = gesture_phase1
+									3096.07
+								data = gesture_phase2
+									2971.06
+							num_trees = 128
+								data = creditcard
+									5443.0925
+								data = eeg
+									5244.495
+								data = gesture_phase1
+									5097.3575
+								data = gesture_phase2
+									4836.0425
+							num_trees = 256
+								data = creditcard
+									9972.2
+								data = eeg
+									9477.2575
+								data = gesture_phase1
+									9134.7875
+								data = gesture_phase2
+									8499.995
+							num_trees = 512
+								data = creditcard
+									19735.0575
+								data = eeg
+									18543.485
+								data = gesture_phase1
+									17896.46
+								data = gesture_phase2
+									16573.53
+							num_trees = 1024
+								data = creditcard
+									39061.45
+								data = eeg
+									36586.5825
+								data = gesture_phase1
+									34607.185
+								data = gesture_phase2
+									32286.985
+						threads = 32
+							num_trees = 32
+								data = creditcard
+									3118.5675
+								data = eeg
+									3063.54
+								data = gesture_phase1
+									3024.11
+								data = gesture_phase2
+									2948.625
+							num_trees = 64
+								data = creditcard
+									4209.68
+								data = eeg
+									4118.7975
+								data = gesture_phase1
+									4016.35
+								data = gesture_phase2
+									3895.125
+							num_trees = 128
+								data = creditcard
+									6350.2175
+								data = eeg
+									6160.3625
+								data = gesture_phase1
+									5998.365
+								data = gesture_phase2
+									5735.6
+							num_trees = 256
+								data = creditcard
+									10629.9875
+								data = eeg
+									10226.3925
+								data = gesture_phase1
+									9894.445
+								data = gesture_phase2
+									9258.3825
+							num_trees = 512
+								data = creditcard
+									19696.3675
+								data = eeg
+									18383.3425
+								data = gesture_phase1
+									17864.66
+								data = gesture_phase2
+									16613.54
+							num_trees = 1024
+								data = creditcard
+									37730.0
+								data = eeg
+									35910.6425
+								data = gesture_phase1
+									34390.8375
+								data = gesture_phase2
+									32408.0025
+						threads = 64
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+									6041.2675
+								data = eeg
+									5949.085
+								data = gesture_phase1
+									5843.8825
+								data = gesture_phase2
+									5723.5625
+							num_trees = 128
+								data = creditcard
+									8225.785
+								data = eeg
+									8032.4425
+								data = gesture_phase1
+									7874.175
+								data = gesture_phase2
+									7608.1375
+							num_trees = 256
+								data = creditcard
+									12485.51
+								data = eeg
+									12090.93
+								data = gesture_phase1
+									11722.4575
+								data = gesture_phase2
+									11119.735
+							num_trees = 512
+								data = creditcard
+									21018.7925
+								data = eeg
+									20175.6375
+								data = gesture_phase1
+									19416.2675
+								data = gesture_phase2
+									18421.185
+							num_trees = 1024
+								data = creditcard
+									38347.5825
+								data = eeg
+									36649.1475
+								data = gesture_phase1
+									35172.0225
+								data = gesture_phase2
+									33037.4
+						threads = 128
+							num_trees = 32
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 64
+								data = creditcard
+N/A
+								data = eeg
+N/A
+								data = gesture_phase1
+N/A
+								data = gesture_phase2
+N/A
+							num_trees = 128
+								data = creditcard
+									11888.92
+								data = eeg
+									11695.6125
+								data = gesture_phase1
+									11534.7825
+								data = gesture_phase2
+									11268.875
+							num_trees = 256
+								data = creditcard
+									16251.2925
+								data = eeg
+									15862.025
+								data = gesture_phase1
+									15488.41
+								data = gesture_phase2
+									14885.5975
+							num_trees = 512
+								data = creditcard
+									24779.875
+								data = eeg
+									23926.745
+								data = gesture_phase1
+									23165.5125
+								data = gesture_phase2
+									22177.245
+							num_trees = 1024
+								data = creditcard
+									41815.6975
+								data = eeg
+									40239.3
+								data = gesture_phase1
+									38751.545
+								data = gesture_phase2
+									36571.0525

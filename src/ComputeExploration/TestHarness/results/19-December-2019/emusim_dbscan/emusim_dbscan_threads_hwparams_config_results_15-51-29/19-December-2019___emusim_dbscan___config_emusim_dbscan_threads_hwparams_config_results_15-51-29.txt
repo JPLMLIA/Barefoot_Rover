@@ -1,0 +1,162 @@
+exec = omp_dbscan_master.mwx
+	eps = 64
+		log2_memory_size = 28
+			log2_num_nodelets = 3
+				gcs_per_nodelet = 1
+					threads = 1
+						minpts = 4
+							data = a1_va3_scale1000_dbscan.bin
+								bucketsize = 12
+									366614024
+					threads = 2
+									239775326
+					threads = 4
+									221362473
+					threads = 8
+									164325266
+					threads = 16
+									159851463
+					threads = 32
+									165255367
+					threads = 64
+									202684149
+					threads = 128
+									330335187
+			log2_num_nodelets = 5
+					threads = 1
+									368026920
+					threads = 2
+									234860857
+					threads = 4
+									215040676
+					threads = 8
+									155712972
+					threads = 16
+									129766748
+					threads = 32
+									127563262
+					threads = 64
+									176987645
+					threads = 128
+									299942258
+			log2_num_nodelets = 7
+					threads = 1
+									368367717
+					threads = 2
+									233772831
+					threads = 4
+									213663405
+					threads = 8
+									153731793
+					threads = 16
+									127697408
+					threads = 32
+									125150706
+					threads = 64
+									165553929
+					threads = 128
+									284808059
+		log2_memory_size = 33
+			log2_num_nodelets = 3
+					threads = 1
+									366614024
+					threads = 2
+									239775326
+					threads = 4
+									221362473
+					threads = 8
+									164325266
+					threads = 16
+									159851463
+					threads = 32
+									165255367
+					threads = 64
+									202684149
+					threads = 128
+									330335187
+			log2_num_nodelets = 5
+					threads = 1
+									368026920
+					threads = 2
+									234860857
+					threads = 4
+									215040676
+					threads = 8
+									155712972
+					threads = 16
+									129766748
+					threads = 32
+									127563262
+					threads = 64
+									176987645
+					threads = 128
+									299942258
+			log2_num_nodelets = 7
+					threads = 1
+									368367717
+					threads = 2
+									233772831
+					threads = 4
+									213663405
+					threads = 8
+									153731793
+					threads = 16
+									127697408
+					threads = 32
+									125150706
+					threads = 64
+									165553929
+					threads = 128
+									284808059
+		log2_memory_size = 36
+			log2_num_nodelets = 3
+					threads = 1
+									N/A
+					threads = 2
+									N/A
+					threads = 4
+									N/A
+					threads = 8
+									N/A
+					threads = 16
+									N/A
+					threads = 32
+									N/A
+					threads = 64
+									N/A
+					threads = 128
+									N/A
+			log2_num_nodelets = 5
+					threads = 1
+									N/A
+					threads = 2
+									N/A
+					threads = 4
+									N/A
+					threads = 8
+									N/A
+					threads = 16
+									N/A
+					threads = 32
+									N/A
+					threads = 64
+									N/A
+					threads = 128
+									N/A
+			log2_num_nodelets = 7
+					threads = 1
+									N/A
+					threads = 2
+									N/A
+					threads = 4
+									N/A
+					threads = 8
+									N/A
+					threads = 16
+									N/A
+					threads = 32
+									N/A
+					threads = 64
+									N/A
+					threads = 128
+									N/A

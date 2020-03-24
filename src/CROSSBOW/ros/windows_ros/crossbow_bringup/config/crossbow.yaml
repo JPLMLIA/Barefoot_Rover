@@ -1,0 +1,15 @@
+wheelduino:
+  # device: "/dev/ttyS4"
+  device: "COM4"
+  baud: 115200
+  timeout: 1.5
+  delay: 0.05
+  rate: 10
+
+cartduino:
+  # device: "/dev/ttyS5"
+  device: "COM5"
+  baud: 115200
+  timeout: 1.5
+  delay: 0.05
+  rate: 10

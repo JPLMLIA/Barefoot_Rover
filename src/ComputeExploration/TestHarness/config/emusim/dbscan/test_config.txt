@@ -1,0 +1,12 @@
+emusim_dbscan
+DEBUG = 1
+exec = emu_dbscan_exec
+data = small_dbscan_data
+eps = 16
+minpts = 64
+bucketsize = 12
+log2_replnodes = 0
+log2_num_nodelets = 3
+log2_memory_size = 33
+gcs_per_nodelet = 1
+threads = 1

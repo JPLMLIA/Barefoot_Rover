@@ -1,0 +1,211 @@
+procs = 1
+	num_trees = 32
+		exec = RandomForest
+			tree_depth = 3
+				data = gesture_phase
+					min_leaf_samples = 10
+						0.106005
+			tree_depth = 6
+						0.145216
+			tree_depth = 10
+						0.191568
+	num_trees = 64
+			tree_depth = 3
+						0.108886
+			tree_depth = 6
+						0.123701
+			tree_depth = 10
+						0.386086
+	num_trees = 128
+			tree_depth = 3
+						0.115354
+			tree_depth = 6
+						0.333882
+			tree_depth = 10
+						0.747626
+	num_trees = 256
+			tree_depth = 3
+						0.188036
+			tree_depth = 6
+						0.634905
+			tree_depth = 10
+						1.611100
+	num_trees = 512
+			tree_depth = 3
+						0.486026
+			tree_depth = 6
+						1.167921
+			tree_depth = 10
+						3.024633
+	num_trees = 1024
+			tree_depth = 3
+						0.826860
+			tree_depth = 6
+						2.289048
+			tree_depth = 10
+						6.446952
+procs = 2
+	num_trees = 32
+			tree_depth = 3
+						0.163839
+			tree_depth = 6
+						0.102187
+			tree_depth = 10
+						0.210713
+	num_trees = 64
+			tree_depth = 3
+						0.114909
+			tree_depth = 6
+						0.254277
+			tree_depth = 10
+						0.249599
+	num_trees = 128
+			tree_depth = 3
+						0.140015
+			tree_depth = 6
+						0.338479
+			tree_depth = 10
+						0.491788
+	num_trees = 256
+			tree_depth = 3
+						0.284979
+			tree_depth = 6
+						0.398197
+			tree_depth = 10
+						1.098999
+	num_trees = 512
+			tree_depth = 3
+						0.431459
+			tree_depth = 6
+						0.676107
+			tree_depth = 10
+						1.725057
+	num_trees = 1024
+			tree_depth = 3
+						0.548946
+			tree_depth = 6
+						1.543376
+			tree_depth = 10
+						3.199095
+procs = 4
+	num_trees = 32
+			tree_depth = 3
+						0.211993
+			tree_depth = 6
+						0.180259
+			tree_depth = 10
+						0.232175
+	num_trees = 64
+			tree_depth = 3
+						0.183973
+			tree_depth = 6
+						0.181311
+			tree_depth = 10
+						0.329021
+	num_trees = 128
+			tree_depth = 3
+						0.266594
+			tree_depth = 6
+						0.182305
+			tree_depth = 10
+						0.295277
+	num_trees = 256
+			tree_depth = 3
+						0.196423
+			tree_depth = 6
+						0.292831
+			tree_depth = 10
+						0.600785
+	num_trees = 512
+			tree_depth = 3
+						0.302280
+			tree_depth = 6
+						0.413581
+			tree_depth = 10
+						1.080645
+	num_trees = 1024
+			tree_depth = 3
+						0.392787
+			tree_depth = 6
+						0.764277
+			tree_depth = 10
+						1.836164
+procs = 8
+	num_trees = 32
+			tree_depth = 3
+						0.326164
+			tree_depth = 6
+						0.253219
+			tree_depth = 10
+						0.310687
+	num_trees = 64
+			tree_depth = 3
+						0.259109
+			tree_depth = 6
+						0.244791
+			tree_depth = 10
+						0.342534
+	num_trees = 128
+			tree_depth = 3
+						0.363411
+			tree_depth = 6
+						0.290290
+			tree_depth = 10
+						0.391430
+	num_trees = 256
+			tree_depth = 3
+						0.299131
+			tree_depth = 6
+						0.334656
+			tree_depth = 10
+						0.520528
+	num_trees = 512
+			tree_depth = 3
+						0.385575
+			tree_depth = 6
+						0.460661
+			tree_depth = 10
+						1.015673
+	num_trees = 1024
+			tree_depth = 3
+						0.414700
+			tree_depth = 6
+						0.718457
+			tree_depth = 10
+						1.833558
+procs = 16
+	num_trees = 32
+			tree_depth = 3
+						44.290333
+			tree_depth = 6
+						48.195312
+			tree_depth = 10
+						49.682460
+	num_trees = 64
+			tree_depth = 3
+						43.897867
+			tree_depth = 6
+						54.623606
+			tree_depth = 10
+						41.889752
+	num_trees = 128
+			tree_depth = 3
+						43.839883
+			tree_depth = 6
+						47.653550
+			tree_depth = 10
+						42.735652
+	num_trees = 256
+			tree_depth = 3
+						43.952394
+			tree_depth = 6
+						46.615395
+			tree_depth = 10
+						40.809671
+	num_trees = 512
+			tree_depth = 3
+						46.695721
+			tree_depth = 6
+						45.867603
+			tree_depth = 10
+						47.447298

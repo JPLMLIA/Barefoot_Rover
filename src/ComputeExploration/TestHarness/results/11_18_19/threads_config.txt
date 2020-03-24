@@ -1,0 +1,2 @@
+x = threads
+gcs_per_nodelet = 1

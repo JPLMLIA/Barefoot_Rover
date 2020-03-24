@@ -1,0 +1,8 @@
+hpsc_dbscan
+DEBUG = 1
+eps = 32
+minpts = 32
+bucketsize = 12
+data = small_dbscan_data
+exec = hpsc_dbscan_exec
+procs = 1

@@ -1,0 +1,26 @@
+name: barefoot
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.7.1
+  - h5py=2.8.0
+  - numpy=1.15.4
+  - scipy=1.1.0
+  - scikit-learn=0.19.1
+  - pytest
+  - pytest-datadir
+  - pyyaml
+  - yaml
+  - matplotlib=3.0.2
+  - psutil=5.4.8
+  - pandas=0.23.4
+  - imageio=2.6.1
+  - fastdtw=0.3.2
+  - PyWavelets=1.0.1
+  - scikit-image=0.14.1
+  - coverage
+  - pytest-cov
+  - tsfresh

@@ -1,0 +1,10 @@
+/Release/
+/Debug/
+/.cproject
+/gold.out
+/example.dat
+/example2.dat
+/.project
+/test.out
+/.settings/
+*.out

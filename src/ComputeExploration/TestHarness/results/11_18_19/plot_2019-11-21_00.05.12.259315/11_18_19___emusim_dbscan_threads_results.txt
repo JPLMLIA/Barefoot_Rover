@@ -1,0 +1,51 @@
+eps = 64
+	minpts = 32
+		bucketsize = 12
+			data = a1_va3_scale1000_dbscan.bin
+				exec = omp_dbscan_master.mwx
+					threads = 1
+						log2_num_nodelets = 3
+							log2_memory_size = 33
+								gcs_per_nodelet = 1
+									366371431
+					threads = 2
+									239609827
+					threads = 4
+									221249558
+					threads = 8
+									164189541
+					threads = 16
+									159822332
+				exec = omp_dbscan_no_repl.mwx
+					threads = 1
+									353059302
+					threads = 2
+									286777354
+					threads = 4
+									267310268
+					threads = 8
+									222855972
+					threads = 16
+									233718679
+				exec = omp_dbscan_repl_0.mwx
+					threads = 1
+									353272380
+					threads = 2
+									286984861
+					threads = 4
+									267522067
+					threads = 8
+									223099131
+					threads = 16
+									233862584
+				exec = omp_dbscan_repl_full.mwx
+					threads = 1
+									356497456
+					threads = 2
+									246678409
+					threads = 4
+									218105426
+					threads = 8
+									150672437
+					threads = 16
+									153044461

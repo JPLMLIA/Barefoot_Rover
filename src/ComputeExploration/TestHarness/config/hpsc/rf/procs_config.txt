@@ -1,0 +1,7 @@
+hpsc_rf
+exec = hpsc_rf_exec
+data = small_rf_data
+num_trees = 32, 64, 128, 256, 512, 1024
+tree_depth = 3, 6, 10
+min_leaf_samples = 5, 10, 50 
+procs = 1, 2, 4, 8

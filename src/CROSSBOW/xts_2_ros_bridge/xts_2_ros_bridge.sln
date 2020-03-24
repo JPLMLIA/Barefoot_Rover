@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xts_2_ros_bridge", "xts_2_ros_bridge\xts_2_ros_bridge.vcxproj", "{E3C7D8B6-F1C5-43ED-996E-AD1C790F80BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3C7D8B6-F1C5-43ED-996E-AD1C790F80BD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3C7D8B6-F1C5-43ED-996E-AD1C790F80BD}.Debug|Win32.Build.0 = Debug|Win32
+		{E3C7D8B6-F1C5-43ED-996E-AD1C790F80BD}.Debug|x64.ActiveCfg = Debug|Win32
+		{E3C7D8B6-F1C5-43ED-996E-AD1C790F80BD}.Debug|x64.Build.0 = Debug|Win32
+		{E3C7D8B6-F1C5-43ED-996E-AD1C790F80BD}.Debug|x86.ActiveCfg = Debug|Win32
+		{E3C7D8B6-F1C5-43ED-996E-AD1C790F80BD}.Debug|x86.Build.0 = Debug|Win32
+		{E3C7D8B6-F1C5-43ED-996E-AD1C790F80BD}.Release|Win32.ActiveCfg = Release|Win32
+		{E3C7D8B6-F1C5-43ED-996E-AD1C790F80BD}.Release|Win32.Build.0 = Release|Win32
+		{E3C7D8B6-F1C5-43ED-996E-AD1C790F80BD}.Release|x64.ActiveCfg = Release|Win32
+		{E3C7D8B6-F1C5-43ED-996E-AD1C790F80BD}.Release|x86.ActiveCfg = Release|Win32
+		{E3C7D8B6-F1C5-43ED-996E-AD1C790F80BD}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDC292E4-9583-4DD7-BF47-0C7F6AA28365}
+	EndGlobalSection
+EndGlobal

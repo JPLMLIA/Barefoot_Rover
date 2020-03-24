@@ -1,0 +1,272 @@
+exec = omp_dbscan_master.mwx
+	eps = 4
+		log2_memory_size = 33
+			log2_num_nodelets = 3
+				gcs_per_nodelet = 1
+					threads = 1
+						minpts = 4
+							data = a1_va3_scale1000_dbscan.bin
+								bucketsize = 12
+									24190853
+								bucketsize = 64
+									29550581
+						minpts = 64
+								bucketsize = 12
+									24190853
+								bucketsize = 64
+									29550581
+					threads = 2
+						minpts = 4
+								bucketsize = 12
+									20250221
+								bucketsize = 64
+									21833999
+						minpts = 64
+								bucketsize = 12
+									20250221
+								bucketsize = 64
+									21833999
+					threads = 4
+						minpts = 4
+								bucketsize = 12
+									18737192
+								bucketsize = 64
+									18510057
+						minpts = 64
+								bucketsize = 12
+									18737192
+								bucketsize = 64
+									18510057
+					threads = 8
+						minpts = 4
+								bucketsize = 12
+									18432363
+								bucketsize = 64
+									16479245
+						minpts = 64
+								bucketsize = 12
+									18432363
+								bucketsize = 64
+									16479245
+					threads = 16
+						minpts = 4
+								bucketsize = 12
+									21662210
+								bucketsize = 64
+									17383985
+						minpts = 64
+								bucketsize = 12
+									21662210
+								bucketsize = 64
+									17383985
+					threads = 32
+						minpts = 4
+								bucketsize = 12
+									33259919
+								bucketsize = 64
+									23915740
+						minpts = 64
+								bucketsize = 12
+									33259919
+								bucketsize = 64
+									23915740
+					threads = 64
+						minpts = 4
+								bucketsize = 12
+									58409772
+								bucketsize = 64
+									37634920
+						minpts = 64
+								bucketsize = 12
+									58409772
+								bucketsize = 64
+									37634920
+					threads = 128
+						minpts = 4
+								bucketsize = 12
+									112813731
+								bucketsize = 64
+									85108073
+						minpts = 64
+								bucketsize = 12
+									112813731
+								bucketsize = 64
+									85108073
+	eps = 32
+					threads = 1
+						minpts = 4
+								bucketsize = 12
+									163019901
+								bucketsize = 64
+									155872755
+						minpts = 64
+								bucketsize = 12
+									162843977
+								bucketsize = 64
+									155697566
+					threads = 2
+						minpts = 4
+								bucketsize = 12
+									112657798
+								bucketsize = 64
+									97634864
+						minpts = 64
+								bucketsize = 12
+									112534445
+								bucketsize = 64
+									97466598
+					threads = 4
+						minpts = 4
+								bucketsize = 12
+									104154581
+								bucketsize = 64
+									87575441
+						minpts = 64
+								bucketsize = 12
+									103971570
+								bucketsize = 64
+									87388085
+					threads = 8
+						minpts = 4
+								bucketsize = 12
+									83384209
+								bucketsize = 64
+									64951364
+						minpts = 64
+								bucketsize = 12
+									83371857
+								bucketsize = 64
+									64873112
+					threads = 16
+						minpts = 4
+								bucketsize = 12
+									82474248
+								bucketsize = 64
+									58378385
+						minpts = 64
+								bucketsize = 12
+									82481311
+								bucketsize = 64
+									58277454
+					threads = 32
+						minpts = 4
+								bucketsize = 12
+									92114742
+								bucketsize = 64
+									60480918
+						minpts = 64
+								bucketsize = 12
+									92389672
+								bucketsize = 64
+									60335329
+					threads = 64
+						minpts = 4
+								bucketsize = 12
+									123384581
+								bucketsize = 64
+									72966129
+						minpts = 64
+								bucketsize = 12
+									125683282
+								bucketsize = 64
+									72820219
+					threads = 128
+						minpts = 4
+								bucketsize = 12
+									213337346
+								bucketsize = 64
+									117137116
+						minpts = 64
+								bucketsize = 12
+									215298985
+								bucketsize = 64
+									121418278
+	eps = 128
+					threads = 1
+						minpts = 4
+								bucketsize = 12
+									834217237
+								bucketsize = 64
+									757240907
+						minpts = 64
+								bucketsize = 12
+									833519351
+								bucketsize = 64
+									756543485
+					threads = 2
+						minpts = 4
+								bucketsize = 12
+									526240752
+								bucketsize = 64
+									438513948
+						minpts = 64
+								bucketsize = 12
+									525771206
+								bucketsize = 64
+									437980145
+					threads = 4
+						minpts = 4
+								bucketsize = 12
+									456578558
+								bucketsize = 64
+									371439165
+						minpts = 64
+								bucketsize = 12
+									456303469
+								bucketsize = 64
+									371208685
+					threads = 8
+						minpts = 4
+								bucketsize = 12
+									323067005
+								bucketsize = 64
+									245135503
+						minpts = 64
+								bucketsize = 12
+									322980856
+								bucketsize = 64
+									244978641
+					threads = 16
+						minpts = 4
+								bucketsize = 12
+									318565612
+								bucketsize = 64
+									205839283
+						minpts = 64
+								bucketsize = 12
+									318286172
+								bucketsize = 64
+									205768784
+					threads = 32
+						minpts = 4
+								bucketsize = 12
+									318407951
+								bucketsize = 64
+									193320353
+						minpts = 64
+								bucketsize = 12
+									318002552
+								bucketsize = 64
+									193195273
+					threads = 64
+						minpts = 4
+								bucketsize = 12
+									355613100
+								bucketsize = 64
+									187019594
+						minpts = 64
+								bucketsize = 12
+									355869486
+								bucketsize = 64
+									186616304
+					threads = 128
+						minpts = 4
+								bucketsize = 12
+									589175820
+								bucketsize = 64
+									251526802
+						minpts = 64
+								bucketsize = 12
+									586200117
+								bucketsize = 64
+									250441638

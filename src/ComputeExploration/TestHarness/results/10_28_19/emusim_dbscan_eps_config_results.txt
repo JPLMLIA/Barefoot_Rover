@@ -1,0 +1,55 @@
+eps = 1
+        minpts = 64
+                bucketsize = 12
+                        data = a1_va3_scale1000_dbscan.bin
+                                exec = omp_dbscan.mwx
+                                        threads = 1
+                                                log2_num_nodelets = 3
+                                                        log2_memory_size = 33
+                                                                gcs_per_nodelet = 4
+                                                                        18160875
+                        data = EEG_Eye_State_dbscan.bin
+                                                                        124384094
+eps = 2
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        19636587
+                        data = EEG_Eye_State_dbscan.bin
+                                                                        153937005
+eps = 4
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        23682280
+                        data = EEG_Eye_State_dbscan.bin
+                                                                        254524589
+eps = 8
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        36213584
+                        data = EEG_Eye_State_dbscan.bin
+                                                                        712446376
+eps = 16
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        71880014
+                        data = EEG_Eye_State_dbscan.bin
+                                                                        3469175185
+eps = 32
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        157464495
+                        data = EEG_Eye_State_dbscan.bin
+                                                                        19399671566
+eps = 64
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        352879319
+                        data = EEG_Eye_State_dbscan.bin
+                                                                        73195569737
+eps = 128
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        801050982
+                        data = EEG_Eye_State_dbscan.bin
+                                                                        127984569898
+eps = 256
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        1697456611
+			data = EEG_Eye_State_dbscan.bin
+                                                                        152282844008
+eps = 512
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        2913823201

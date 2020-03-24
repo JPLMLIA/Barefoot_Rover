@@ -1,0 +1,9 @@
+Result 19-December-2019/hpsc_dbscan/config_hpsc_dbscan_procs_config_results_18-36-18.txt
+	Config:  AUTO
+	Parameters:
+		exec: ['mpi_dbscan']
+		eps: ['4']
+		minpts: ['4', '64']
+		data: ['a1_va3_scale1000_dbscan.bin']
+		procs: ['1', '2', '4', '8', '16', '32', '64', '128']
+		bucketsize: ['12', '64']

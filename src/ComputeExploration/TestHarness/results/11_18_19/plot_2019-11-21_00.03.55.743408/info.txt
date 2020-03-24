@@ -1,0 +1,14 @@
+Result 11_18_19/emusim_dbscan_threads_results.txt
+	Config:
+		x = threads
+		gcs_per_nodelet = 1
+	Parameters:
+		eps: ['64']
+		minpts: ['32']
+		bucketsize: ['12']
+		data: ['a1_va3_scale1000_dbscan.bin']
+		exec: ['omp_dbscan_master.mwx', 'omp_dbscan_no_repl.mwx', 'omp_dbscan_repl_full.mwx']
+		threads: ['1', '2', '4', '8', '16']
+		log2_num_nodelets: ['3']
+		log2_memory_size: ['33']
+		gcs_per_nodelet: ['1']

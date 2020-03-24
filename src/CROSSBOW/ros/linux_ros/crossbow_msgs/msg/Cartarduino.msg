@@ -1,0 +1,9 @@
+float64 cartduino_ms
+float64 z_height
+float64 speed
+float64 current
+float64 cart_x
+float64 cart_y
+float64 cart_z
+float64 pxflow_1
+float64 pxflow_2

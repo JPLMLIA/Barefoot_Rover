@@ -1,0 +1,7 @@
+emu_dbscan
+exec = emu_dbscan_exec
+data = small_dbscan_data
+eps = 4, 32, 128
+minpts = 4, 64
+bucketsize = 12, 64
+threads = 1, 2, 4, 8, 16, 32, 64, 128

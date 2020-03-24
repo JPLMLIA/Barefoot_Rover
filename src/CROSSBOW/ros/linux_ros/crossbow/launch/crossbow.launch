@@ -1,0 +1,8 @@
+<launch>
+
+	<include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch"/>
+	<node name="data_listener" pkg="crossbow" type="data_listener.py" output="screen" />
+	<node name="eis" pkg="crossbow" type="eis_watchdog.py" output="screen" />
+	<node name="data_logger" pkg="crossbow" type="data_logger.py" output="screen" />
+	
+</launch>

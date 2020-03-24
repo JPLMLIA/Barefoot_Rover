@@ -1,0 +1,12 @@
+Result 17-March-2020/config_emusim_rf_threads_hwparams_config_results_21-10-13.txt
+	Config:  AUTO
+	Parameters:
+		tree_depth: ['10']
+		exec: ['random_forest_classifier.mwx']
+		log2_memory_size: ['26', '30', '35']
+		log2_num_nodelets: ['3', '5', '7']
+		gcs_per_nodelet: ['1']
+		min_leaf_samples: ['10']
+		threads: ['1', '2', '4', '8', '16', '32', '64', '128']
+		num_trees: ['256']
+		data: ['creditcard', 'eeg', 'gesture_phase1', 'gesture_phase2']

@@ -1,0 +1,9 @@
+<launch>
+	<rosparam file="$(find crossbow_bringup)/config/crossbow.yaml" />
+
+	<node name="cartduino" pkg="crossbow" type="CartArduino.py" respawn="false" output="screen" respawn_delay="3" />
+	<node name="wheelduino" pkg="crossbow" type="WheelArduino.py" respawn="false" output="screen" respawn_delay="3" />
+	<node name="ati" pkg="crossbow" type="ATI.py" respawn="false" output="screen" respawn_delay="3" />
+	<node name="labjack" pkg="crossbow" type="LabJack.py" respawn="false" output="screen" respawn_delay="3" />
+
+</launch>

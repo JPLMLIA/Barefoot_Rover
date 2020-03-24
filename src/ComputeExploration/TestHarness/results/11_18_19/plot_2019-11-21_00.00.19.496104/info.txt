@@ -1,0 +1,19 @@
+Result 11_18_19/emusim_dbscan_threads_results.txt
+	Config:
+		x = threads
+		gcs_per_nodelet = 1
+		threads = 1, 2, 4, 8, 16, 32, 64, 128
+	Parameters:
+		eps: ['64']
+		minpts: ['32']
+		bucketsize: ['12']
+		data: ['a1_va3_scale1000_dbscan.bin']
+		exec: ['omp_dbscan_master.mwx', 'omp_dbscan_repl_full.mwx']
+		threads: ['1', '2', '4', '8', '16', '32', '64', '128']
+		log2_num_nodelets: ['3']
+		log2_memory_size: ['33']
+		gcs_per_nodelet: ['1']
+
+Comments:
+
+Only difference is replicated kdtree. Replicating gives clear performance speedup, and even scales to greater number of threads (32 vs 16). Guessing this is as threads begin to bottleneck on node 0 in former, they are still spread in latter. Of course, too many is still too many at some point.

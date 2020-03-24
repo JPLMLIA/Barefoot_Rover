@@ -1,0 +1,2535 @@
+emusim_dbscan
+log2_replnodes = 0
+	exec = omp_dbscan.mwx
+		eps = 4
+			log2_memory_size = 33
+				log2_num_nodelets = 3
+					gcs_per_nodelet = 1
+						threads = 1
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										3749692572
+									bucketsize = 64
+										3162900612
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										211529699
+									bucketsize = 64
+										197273520
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										176921570
+									bucketsize = 64
+										165841988
+								data = sales_dbscan.bin
+									bucketsize = 12
+										168712414
+									bucketsize = 64
+										141875916
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										3749692572
+									bucketsize = 64
+										3162900612
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										211335162
+									bucketsize = 64
+										197078582
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										176693058
+									bucketsize = 64
+										165616836
+								data = sales_dbscan.bin
+									bucketsize = 12
+										168506627
+									bucketsize = 64
+										141670024
+						threads = 2
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										3208294925
+									bucketsize = 64
+										2620437195
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										143754164
+									bucketsize = 64
+										122026420
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										119657341
+									bucketsize = 64
+										102786306
+								data = sales_dbscan.bin
+									bucketsize = 12
+										162883271
+									bucketsize = 64
+										134197058
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										3208294925
+									bucketsize = 64
+										2620437195
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										143825619
+									bucketsize = 64
+										121769251
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										118446445
+									bucketsize = 64
+										101701957
+								data = sales_dbscan.bin
+									bucketsize = 12
+										162677217
+									bucketsize = 64
+										133979159
+						threads = 4
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2877598715
+									bucketsize = 64
+										2291369884
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										133221667
+									bucketsize = 64
+										109834068
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										109436128
+									bucketsize = 64
+										89064458
+								data = sales_dbscan.bin
+									bucketsize = 12
+										148694751
+									bucketsize = 64
+										116101600
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2877598715
+									bucketsize = 64
+										2291369884
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										133110115
+									bucketsize = 64
+										109627753
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										109319436
+									bucketsize = 64
+										88874742
+								data = sales_dbscan.bin
+									bucketsize = 12
+										148502613
+									bucketsize = 64
+										115899608
+						threads = 8
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2761611857
+									bucketsize = 64
+										2171776871
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										103905383
+									bucketsize = 64
+										79726478
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										81603693
+									bucketsize = 64
+										61811083
+								data = sales_dbscan.bin
+									bucketsize = 12
+										112399573
+									bucketsize = 64
+										79739314
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2761611857
+									bucketsize = 64
+										2171776871
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										103782310
+									bucketsize = 64
+										79630203
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										81494840
+									bucketsize = 64
+										61712158
+								data = sales_dbscan.bin
+									bucketsize = 12
+										112170824
+									bucketsize = 64
+										79474338
+						threads = 16
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2751343073
+									bucketsize = 64
+										2161987314
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										102936496
+									bucketsize = 64
+										71193794
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										72931370
+									bucketsize = 64
+										50611550
+								data = sales_dbscan.bin
+									bucketsize = 12
+										93127663
+									bucketsize = 64
+										60160193
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2765176654
+									bucketsize = 64
+										2176113619
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										102292151
+									bucketsize = 64
+										70106433
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										73299089
+									bucketsize = 64
+										50543026
+								data = sales_dbscan.bin
+									bucketsize = 12
+										92969714
+									bucketsize = 64
+										59851616
+						threads = 32
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2758419757
+									bucketsize = 64
+										2164081800
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										111139401
+									bucketsize = 64
+										73977811
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										82347404
+									bucketsize = 64
+										54279921
+								data = sales_dbscan.bin
+									bucketsize = 12
+										89545126
+									bucketsize = 64
+										54746706
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2772162559
+									bucketsize = 64
+										2177688176
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										110953600
+									bucketsize = 64
+										73952612
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										82335986
+									bucketsize = 64
+										53634343
+								data = sales_dbscan.bin
+									bucketsize = 12
+										88887925
+									bucketsize = 64
+										54542343
+						threads = 64
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2770433179
+									bucketsize = 64
+										2177268554
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										140724312
+									bucketsize = 64
+										90146357
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										110810713
+									bucketsize = 64
+										70910653
+								data = sales_dbscan.bin
+									bucketsize = 12
+										100521476
+									bucketsize = 64
+										67288434
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2784683423
+									bucketsize = 64
+										2191491246
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										141570974
+									bucketsize = 64
+										88037180
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										112584983
+									bucketsize = 64
+										70892101
+								data = sales_dbscan.bin
+									bucketsize = 12
+										101161374
+									bucketsize = 64
+										66346461
+						threads = 128
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2845158749
+									bucketsize = 64
+										2252304728
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										248180914
+									bucketsize = 64
+										164283202
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										211646779
+									bucketsize = 64
+										150526993
+								data = sales_dbscan.bin
+									bucketsize = 12
+										172770848
+									bucketsize = 64
+										141430057
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2845158749
+									bucketsize = 64
+										2252304728
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										250851984
+									bucketsize = 64
+										161164326
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										207420087
+									bucketsize = 64
+										147326853
+								data = sales_dbscan.bin
+									bucketsize = 12
+										173272750
+									bucketsize = 64
+										142350111
+		eps = 32
+						threads = 1
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										17326836530
+									bucketsize = 64
+										12194960432
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										2194392587
+									bucketsize = 64
+										1959128957
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										1350067337
+									bucketsize = 64
+										1190679220
+								data = sales_dbscan.bin
+									bucketsize = 12
+										988338086
+									bucketsize = 64
+										853890122
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										17340740968
+									bucketsize = 64
+										12208864870
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										2193617872
+									bucketsize = 64
+										1958351492
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										1349599169
+									bucketsize = 64
+										1190210781
+								data = sales_dbscan.bin
+									bucketsize = 12
+										987966321
+									bucketsize = 64
+										853518527
+						threads = 2
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										15743557972
+									bucketsize = 64
+										9900927839
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1370257346
+									bucketsize = 64
+										1151526845
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										836269415
+									bucketsize = 64
+										689568692
+								data = sales_dbscan.bin
+									bucketsize = 12
+										806937524
+									bucketsize = 64
+										679526499
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										15757462292
+									bucketsize = 64
+										9914832143
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1365503174
+									bucketsize = 64
+										1149486949
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										829641406
+									bucketsize = 64
+										695477057
+								data = sales_dbscan.bin
+									bucketsize = 12
+										806473947
+									bucketsize = 64
+										679466604
+						threads = 4
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14570023908
+									bucketsize = 64
+										8552817617
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										992226095
+									bucketsize = 64
+										814659433
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										580073301
+									bucketsize = 64
+										468381128
+								data = sales_dbscan.bin
+									bucketsize = 12
+										495272049
+									bucketsize = 64
+										390582126
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14583753071
+									bucketsize = 64
+										8566768153
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										989370279
+									bucketsize = 64
+										815819522
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										577609231
+									bucketsize = 64
+										469090271
+								data = sales_dbscan.bin
+									bucketsize = 12
+										495688197
+									bucketsize = 64
+										390261334
+						threads = 8
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14283659842
+									bucketsize = 64
+										8178844583
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										656376770
+									bucketsize = 64
+										503698340
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										394887371
+									bucketsize = 64
+										297240468
+								data = sales_dbscan.bin
+									bucketsize = 12
+										359941622
+									bucketsize = 64
+										246802882
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14297370233
+									bucketsize = 64
+										8190151725
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										656223671
+									bucketsize = 64
+										503444194
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										394993442
+									bucketsize = 64
+										297815972
+								data = sales_dbscan.bin
+									bucketsize = 12
+										358174942
+									bucketsize = 64
+										244788218
+						threads = 16
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14235357779
+									bucketsize = 64
+										8192761863
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										672320356
+									bucketsize = 64
+										415850050
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										388082841
+									bucketsize = 64
+										235907891
+								data = sales_dbscan.bin
+									bucketsize = 12
+										325811715
+									bucketsize = 64
+										197720883
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14235357779
+									bucketsize = 64
+										8192761863
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										671071392
+									bucketsize = 64
+										420191796
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										385358421
+									bucketsize = 64
+										239235599
+								data = sales_dbscan.bin
+									bucketsize = 12
+										325441650
+									bucketsize = 64
+										197113142
+						threads = 32
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14259136234
+									bucketsize = 64
+										8208999716
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										663793039
+									bucketsize = 64
+										399803869
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										417225601
+									bucketsize = 64
+										249997692
+								data = sales_dbscan.bin
+									bucketsize = 12
+										313784266
+									bucketsize = 64
+										179907750
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14259136234
+									bucketsize = 64
+										8208999716
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										662617435
+									bucketsize = 64
+										400724366
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										412847213
+									bucketsize = 64
+										250641006
+								data = sales_dbscan.bin
+									bucketsize = 12
+										314175560
+									bucketsize = 64
+										180262693
+						threads = 64
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14270258884
+									bucketsize = 64
+										8216342960
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										681595174
+									bucketsize = 64
+										401044312
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										426794711
+									bucketsize = 64
+										248193081
+								data = sales_dbscan.bin
+									bucketsize = 12
+										321909726
+									bucketsize = 64
+										194136139
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14270258884
+									bucketsize = 64
+										8216342960
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										683094936
+									bucketsize = 64
+										399540534
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										423364274
+									bucketsize = 64
+										246314144
+								data = sales_dbscan.bin
+									bucketsize = 12
+										322523285
+									bucketsize = 64
+										194110429
+						threads = 128
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14337905920
+									bucketsize = 64
+										8263915340
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1155014787
+									bucketsize = 64
+										468664302
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										715121436
+									bucketsize = 64
+										310387278
+								data = sales_dbscan.bin
+									bucketsize = 12
+										382510478
+									bucketsize = 64
+										252269259
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14337905920
+									bucketsize = 64
+										8263915340
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1148617581
+									bucketsize = 64
+										465971489
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										710133279
+									bucketsize = 64
+										304026130
+								data = sales_dbscan.bin
+									bucketsize = 12
+										382030928
+									bucketsize = 64
+										251761313
+		eps = 128
+						threads = 1
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										136931367962
+									bucketsize = 64
+										105233359504
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										3904507800
+									bucketsize = 64
+										3467465007
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										2055452102
+									bucketsize = 64
+										1815003765
+								data = sales_dbscan.bin
+									bucketsize = 12
+										1902415440
+									bucketsize = 64
+										1688240682
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										136931266939
+									bucketsize = 64
+										105233259515
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										3904483894
+									bucketsize = 64
+										3467441299
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										2055420467
+									bucketsize = 64
+										1814975967
+								data = sales_dbscan.bin
+									bucketsize = 12
+										1902415440
+									bucketsize = 64
+										1688240682
+						threads = 2
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										94114587132
+									bucketsize = 64
+										60448048240
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										2361687294
+									bucketsize = 64
+										2003849946
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										1265939416
+									bucketsize = 64
+										1068186766
+								data = sales_dbscan.bin
+									bucketsize = 12
+										1187767006
+									bucketsize = 64
+										1016077121
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										94115192264
+									bucketsize = 64
+										60448334825
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										2358313016
+									bucketsize = 64
+										2002095712
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										1261666554
+									bucketsize = 64
+										1067556943
+								data = sales_dbscan.bin
+									bucketsize = 12
+										1187767006
+									bucketsize = 64
+										1016077121
+						threads = 4
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										70520087950
+									bucketsize = 64
+										36175914293
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1535413591
+									bucketsize = 64
+										1218985718
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										781299041
+									bucketsize = 64
+										619097336
+								data = sales_dbscan.bin
+									bucketsize = 12
+										761631634
+									bucketsize = 64
+										597802141
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										70519081833
+									bucketsize = 64
+										36144024095
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1535445164
+									bucketsize = 64
+										1205378516
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										788331929
+									bucketsize = 64
+										619031851
+								data = sales_dbscan.bin
+									bucketsize = 12
+										761631634
+									bucketsize = 64
+										597802141
+						threads = 8
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										64270890159
+									bucketsize = 64
+										26864558885
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1108570319
+									bucketsize = 64
+										806742468
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										571621116
+									bucketsize = 64
+										425063489
+								data = sales_dbscan.bin
+									bucketsize = 12
+										554600498
+									bucketsize = 64
+										396803089
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										64263467902
+									bucketsize = 64
+										26840095938
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1072750679
+									bucketsize = 64
+										786518059
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										578672458
+									bucketsize = 64
+										406778531
+								data = sales_dbscan.bin
+									bucketsize = 12
+										554600498
+									bucketsize = 64
+										396803089
+						threads = 16
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63538557877
+									bucketsize = 64
+										24615783931
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										999666973
+									bucketsize = 64
+										650372455
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										544193122
+									bucketsize = 64
+										347658938
+								data = sales_dbscan.bin
+									bucketsize = 12
+										515792599
+									bucketsize = 64
+										325186842
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63538028052
+									bucketsize = 64
+										24624186686
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1012187206
+									bucketsize = 64
+										648448366
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										531834733
+									bucketsize = 64
+										353609930
+								data = sales_dbscan.bin
+									bucketsize = 12
+										515792599
+									bucketsize = 64
+										325186842
+						threads = 32
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										64021572960
+									bucketsize = 64
+										24820516648
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1010244569
+									bucketsize = 64
+										640363263
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										544776545
+									bucketsize = 64
+										337810807
+								data = sales_dbscan.bin
+									bucketsize = 12
+										521798927
+									bucketsize = 64
+										314200126
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										64021517099
+									bucketsize = 64
+										24820676536
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1012018976
+									bucketsize = 64
+										627135616
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										541279376
+									bucketsize = 64
+										333809063
+								data = sales_dbscan.bin
+									bucketsize = 12
+										521798927
+									bucketsize = 64
+										314200126
+						threads = 64
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63955225184
+									bucketsize = 64
+										24881927781
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1031818161
+									bucketsize = 64
+										644807649
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										558917153
+									bucketsize = 64
+										342878714
+								data = sales_dbscan.bin
+									bucketsize = 12
+										518826281
+									bucketsize = 64
+										317826174
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63955194964
+									bucketsize = 64
+										24881842302
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1032643681
+									bucketsize = 64
+										646542946
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										558475920
+									bucketsize = 64
+										348839581
+								data = sales_dbscan.bin
+									bucketsize = 12
+										518826281
+									bucketsize = 64
+										317826174
+						threads = 128
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										64299004844
+									bucketsize = 64
+										24962394778
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1637871435
+									bucketsize = 64
+										714053376
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										916508648
+									bucketsize = 64
+										416052020
+								data = sales_dbscan.bin
+									bucketsize = 12
+										581719144
+									bucketsize = 64
+										378685130
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										N/A
+									bucketsize = 64
+										24962323325
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1639125086
+									bucketsize = 64
+										708637932
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										920383557
+									bucketsize = 64
+										409056218
+								data = sales_dbscan.bin
+									bucketsize = 12
+										581719144
+									bucketsize = 64
+										378685130
+log2_replnodes = 2
+		eps = 4
+						threads = 1
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										3768802024
+									bucketsize = 64
+										3166428044
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										211073752
+									bucketsize = 64
+										197791765
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										177310113
+									bucketsize = 64
+										166249819
+								data = sales_dbscan.bin
+									bucketsize = 12
+										168758484
+									bucketsize = 64
+										142301783
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										3768802024
+									bucketsize = 64
+										3166428044
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										210879215
+									bucketsize = 64
+										197596827
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										177081601
+									bucketsize = 64
+										166024667
+								data = sales_dbscan.bin
+									bucketsize = 12
+										168552697
+									bucketsize = 64
+										142095891
+						threads = 2
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										3126329152
+									bucketsize = 64
+										2520821682
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										142833370
+									bucketsize = 64
+										122106002
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										119560887
+									bucketsize = 64
+										102543044
+								data = sales_dbscan.bin
+									bucketsize = 12
+										162498075
+									bucketsize = 64
+										134198070
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										3126329152
+									bucketsize = 64
+										2520821682
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										142715482
+									bucketsize = 64
+										121784158
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										118412978
+									bucketsize = 64
+										101755971
+								data = sales_dbscan.bin
+									bucketsize = 12
+										162298871
+									bucketsize = 64
+										134018642
+						threads = 4
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2758544134
+									bucketsize = 64
+										2156013369
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										132476441
+									bucketsize = 64
+										109943257
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										109033084
+									bucketsize = 64
+										89075995
+								data = sales_dbscan.bin
+									bucketsize = 12
+										147897557
+									bucketsize = 64
+										115820196
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2758544134
+									bucketsize = 64
+										2156013369
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										132312347
+									bucketsize = 64
+										109854396
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										109075826
+									bucketsize = 64
+										88874652
+								data = sales_dbscan.bin
+									bucketsize = 12
+										147658846
+									bucketsize = 64
+										115627496
+						threads = 8
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2615053374
+									bucketsize = 64
+										2014952140
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										102457224
+									bucketsize = 64
+										79628822
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										80961970
+									bucketsize = 64
+										61749930
+								data = sales_dbscan.bin
+									bucketsize = 12
+										111392599
+									bucketsize = 64
+										79163769
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2615053374
+									bucketsize = 64
+										2014952140
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										102450142
+									bucketsize = 64
+										79526198
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										80943041
+									bucketsize = 64
+										61650775
+								data = sales_dbscan.bin
+									bucketsize = 12
+										111189529
+									bucketsize = 64
+										78994995
+						threads = 16
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2614775856
+									bucketsize = 64
+										2017769738
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										100874413
+									bucketsize = 64
+										70510925
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										72421256
+									bucketsize = 64
+										50408696
+								data = sales_dbscan.bin
+									bucketsize = 12
+										92100054
+									bucketsize = 64
+										59656598
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2642449183
+									bucketsize = 64
+										2073407445
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										101025897
+									bucketsize = 64
+										69308390
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										72682879
+									bucketsize = 64
+										50340207
+								data = sales_dbscan.bin
+									bucketsize = 12
+										91890075
+									bucketsize = 64
+										59242583
+						threads = 32
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2614929333
+									bucketsize = 64
+										2007580965
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										107922026
+									bucketsize = 64
+										72071808
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										82545795
+									bucketsize = 64
+										53269708
+								data = sales_dbscan.bin
+									bucketsize = 12
+										88210277
+									bucketsize = 64
+										54029855
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2642456291
+									bucketsize = 64
+										2063235173
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										108321680
+									bucketsize = 64
+										72535601
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										81911841
+									bucketsize = 64
+										52840480
+								data = sales_dbscan.bin
+									bucketsize = 12
+										87883092
+									bucketsize = 64
+										53748648
+						threads = 64
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2621756595
+									bucketsize = 64
+										2015371417
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										139594676
+									bucketsize = 64
+										86088694
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										106884266
+									bucketsize = 64
+										70238818
+								data = sales_dbscan.bin
+									bucketsize = 12
+										100396909
+									bucketsize = 64
+										66777338
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2649340238
+									bucketsize = 64
+										2070760771
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										138829430
+									bucketsize = 64
+										85004883
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										105086857
+									bucketsize = 64
+										69030800
+								data = sales_dbscan.bin
+									bucketsize = 12
+										100195786
+									bucketsize = 64
+										65283043
+						threads = 128
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2714976501
+									bucketsize = 64
+										2139891026
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										234409350
+									bucketsize = 64
+										160593705
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										208885610
+									bucketsize = 64
+										149837822
+								data = sales_dbscan.bin
+									bucketsize = 12
+										173661200
+									bucketsize = 64
+										143581986
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2714976501
+									bucketsize = 64
+										2139891026
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										243132084
+									bucketsize = 64
+										161354342
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										206814180
+									bucketsize = 64
+										146516178
+								data = sales_dbscan.bin
+									bucketsize = 12
+										176989976
+									bucketsize = 64
+										146299194
+		eps = 32
+						threads = 1
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										17345945982
+									bucketsize = 64
+										12198487864
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										2193949571
+									bucketsize = 64
+										1959653614
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										1350456382
+									bucketsize = 64
+										1191087553
+								data = sales_dbscan.bin
+									bucketsize = 12
+										988389226
+									bucketsize = 64
+										854315989
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										17373753958
+									bucketsize = 64
+										12254103156
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										2193174856
+									bucketsize = 64
+										1958876149
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										1349988214
+									bucketsize = 64
+										1190619114
+								data = sales_dbscan.bin
+									bucketsize = 12
+										987804114
+									bucketsize = 64
+										853873783
+						threads = 2
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										15503986896
+									bucketsize = 64
+										9660139105
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1362885524
+									bucketsize = 64
+										1150998380
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										829808243
+									bucketsize = 64
+										696720539
+								data = sales_dbscan.bin
+									bucketsize = 12
+										805200647
+									bucketsize = 64
+										678838111
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										15531794752
+									bucketsize = 64
+										9715754225
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1363855972
+									bucketsize = 64
+										1148621233
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										827705206
+									bucketsize = 64
+										694880310
+								data = sales_dbscan.bin
+									bucketsize = 12
+										805391755
+									bucketsize = 64
+										678692537
+						threads = 4
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14096736965
+									bucketsize = 64
+										8090138930
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										987685948
+									bucketsize = 64
+										815132953
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										578699893
+									bucketsize = 64
+										468339116
+								data = sales_dbscan.bin
+									bucketsize = 12
+										494107648
+									bucketsize = 64
+										389740485
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										14124845083
+									bucketsize = 64
+										8145359952
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										987268922
+									bucketsize = 64
+										815079719
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										577826365
+									bucketsize = 64
+										468108387
+								data = sales_dbscan.bin
+									bucketsize = 12
+										493559658
+									bucketsize = 64
+										389868125
+						threads = 8
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										13750566977
+									bucketsize = 64
+										7630427241
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										653605125
+									bucketsize = 64
+										503428397
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										393469835
+									bucketsize = 64
+										297323727
+								data = sales_dbscan.bin
+									bucketsize = 12
+										354022068
+									bucketsize = 64
+										243781810
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										13778261321
+									bucketsize = 64
+										7687261791
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										652924416
+									bucketsize = 64
+										503190194
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										392995651
+									bucketsize = 64
+										296852309
+								data = sales_dbscan.bin
+									bucketsize = 12
+										356837047
+									bucketsize = 64
+										242725474
+						threads = 16
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										13737428627
+									bucketsize = 64
+										7703135741
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										660788395
+									bucketsize = 64
+										417415583
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										382837356
+									bucketsize = 64
+										239799642
+								data = sales_dbscan.bin
+									bucketsize = 12
+										321697964
+									bucketsize = 64
+										194005898
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										13737428627
+									bucketsize = 64
+										7703135741
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										668552203
+									bucketsize = 64
+										418467880
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										387927229
+									bucketsize = 64
+										235004336
+								data = sales_dbscan.bin
+									bucketsize = 12
+										321404894
+									bucketsize = 64
+										194688665
+						threads = 32
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										13747242437
+									bucketsize = 64
+										7708121110
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										658748541
+									bucketsize = 64
+										402247835
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										412048708
+									bucketsize = 64
+										245580621
+								data = sales_dbscan.bin
+									bucketsize = 12
+										309854237
+									bucketsize = 64
+										177153505
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										13747242437
+									bucketsize = 64
+										7708121110
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										655065065
+									bucketsize = 64
+										403910640
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										410762696
+									bucketsize = 64
+										244810530
+								data = sales_dbscan.bin
+									bucketsize = 12
+										309939035
+									bucketsize = 64
+										177560540
+						threads = 64
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										13748566480
+									bucketsize = 64
+										7706878197
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										677031981
+									bucketsize = 64
+										401060242
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										420775245
+									bucketsize = 64
+										244036648
+								data = sales_dbscan.bin
+									bucketsize = 12
+										318205276
+									bucketsize = 64
+										190470055
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										13748566480
+									bucketsize = 64
+										7706878197
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										674673207
+									bucketsize = 64
+										396878817
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										420066877
+									bucketsize = 64
+										245193908
+								data = sales_dbscan.bin
+									bucketsize = 12
+										317932091
+									bucketsize = 64
+										189902916
+						threads = 128
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										13828589051
+									bucketsize = 64
+										7764270355
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1137962063
+									bucketsize = 64
+										466219264
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										703175747
+									bucketsize = 64
+										306690777
+								data = sales_dbscan.bin
+									bucketsize = 12
+										377976221
+									bucketsize = 64
+										251262857
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										13828589051
+									bucketsize = 64
+										7764270355
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1135577896
+									bucketsize = 64
+										466548155
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										704721021
+									bucketsize = 64
+										302943426
+								data = sales_dbscan.bin
+									bucketsize = 12
+										376893596
+									bucketsize = 64
+										250210119
+		eps = 128
+						threads = 1
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										136964380952
+									bucketsize = 64
+										105278597790
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										3904098798
+									bucketsize = 64
+										3467941464
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										2055841123
+									bucketsize = 64
+										1815412074
+								data = sales_dbscan.bin
+									bucketsize = 12
+										1902253257
+									bucketsize = 64
+										1688595962
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										136964279929
+									bucketsize = 64
+										105278497801
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										3904074892
+									bucketsize = 64
+										3467917756
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										2055809488
+									bucketsize = 64
+										1815384276
+								data = sales_dbscan.bin
+									bucketsize = 12
+										1902253257
+									bucketsize = 64
+										1688595962
+						threads = 2
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										93918764915
+									bucketsize = 64
+										60276750736
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										2359677731
+									bucketsize = 64
+										2000943295
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										1266095588
+									bucketsize = 64
+										1066865839
+								data = sales_dbscan.bin
+									bucketsize = 12
+										1187339308
+									bucketsize = 64
+										1014914218
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										93918694994
+									bucketsize = 64
+										60277801594
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										2359746371
+									bucketsize = 64
+										2002806633
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										1264915902
+									bucketsize = 64
+										1066938959
+								data = sales_dbscan.bin
+									bucketsize = 12
+										1187339308
+									bucketsize = 64
+										1014914218
+						threads = 4
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										70113482861
+									bucketsize = 64
+										35956084332
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1534642144
+									bucketsize = 64
+										1237922039
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										780394154
+									bucketsize = 64
+										629316283
+								data = sales_dbscan.bin
+									bucketsize = 12
+										758925073
+									bucketsize = 64
+										596471952
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										70113089527
+									bucketsize = 64
+										35965517490
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1495118460
+									bucketsize = 64
+										1206427137
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										794615757
+									bucketsize = 64
+										618623675
+								data = sales_dbscan.bin
+									bucketsize = 12
+										758925073
+									bucketsize = 64
+										596471952
+						threads = 8
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63754817821
+									bucketsize = 64
+										26467035575
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1096371152
+									bucketsize = 64
+										775709629
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										590135840
+									bucketsize = 64
+										408459495
+								data = sales_dbscan.bin
+									bucketsize = 12
+										551299304
+									bucketsize = 64
+										389731058
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63756739508
+									bucketsize = 64
+										26468717174
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1072947005
+									bucketsize = 64
+										786626922
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										586179783
+									bucketsize = 64
+										428063325
+								data = sales_dbscan.bin
+									bucketsize = 12
+										551299304
+									bucketsize = 64
+										389731058
+						threads = 16
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63033804544
+									bucketsize = 64
+										24150913470
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										997636816
+									bucketsize = 64
+										666508719
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										532114547
+									bucketsize = 64
+										340328427
+								data = sales_dbscan.bin
+									bucketsize = 12
+										510959321
+									bucketsize = 64
+										324524754
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63033428399
+									bucketsize = 64
+										24159230384
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1010373406
+									bucketsize = 64
+										643896389
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										534314283
+									bucketsize = 64
+										346703665
+								data = sales_dbscan.bin
+									bucketsize = 12
+										510959321
+									bucketsize = 64
+										324524754
+						threads = 32
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63506340181
+									bucketsize = 64
+										24317109444
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1011193810
+									bucketsize = 64
+										631114438
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										537431676
+									bucketsize = 64
+										340801383
+								data = sales_dbscan.bin
+									bucketsize = 12
+										513492067
+									bucketsize = 64
+										314057639
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63506225573
+									bucketsize = 64
+										24317637380
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										994424554
+									bucketsize = 64
+										632522370
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										535745991
+									bucketsize = 64
+										333441815
+								data = sales_dbscan.bin
+									bucketsize = 12
+										513492067
+									bucketsize = 64
+										314057639
+						threads = 64
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63429367895
+									bucketsize = 64
+										24368984350
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1031289232
+									bucketsize = 64
+										640128858
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										550678477
+									bucketsize = 64
+										346593796
+								data = sales_dbscan.bin
+									bucketsize = 12
+										516761964
+									bucketsize = 64
+										312875664
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63429343818
+									bucketsize = 64
+										24368953660
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1034829262
+									bucketsize = 64
+										656307044
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										557096090
+									bucketsize = 64
+										348235643
+								data = sales_dbscan.bin
+									bucketsize = 12
+										516761964
+									bucketsize = 64
+										312875664
+						threads = 128
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63778328160
+									bucketsize = 64
+										24456083053
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1618175997
+									bucketsize = 64
+										716261287
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										904033266
+									bucketsize = 64
+										410470017
+								data = sales_dbscan.bin
+									bucketsize = 12
+										575423332
+									bucketsize = 64
+										374379420
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										63778293161
+									bucketsize = 64
+										24456136291
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1616541597
+									bucketsize = 64
+										711017756
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										914047733
+									bucketsize = 64
+										411329694
+								data = sales_dbscan.bin
+									bucketsize = 12
+										575423332
+									bucketsize = 64
+										374379420
+log2_replnodes = 6
+		eps = 4
+						threads = 1
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										4168070530
+									bucketsize = 64
+										3371787108
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										212653536
+									bucketsize = 64
+										198321707
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										178012242
+									bucketsize = 64
+										166631195
+								data = sales_dbscan.bin
+									bucketsize = 12
+										172208832
+									bucketsize = 64
+										143617878
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										4251494813
+									bucketsize = 64
+										3483017827
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										212458999
+									bucketsize = 64
+										198126769
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										177783730
+									bucketsize = 64
+										166406043
+								data = sales_dbscan.bin
+									bucketsize = 12
+										171399956
+									bucketsize = 64
+										142999751
+						threads = 2
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										3434075750
+									bucketsize = 64
+										2638477866
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										141672079
+									bucketsize = 64
+										118713832
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										116896505
+									bucketsize = 64
+										99595773
+								data = sales_dbscan.bin
+									bucketsize = 12
+										164126443
+									bucketsize = 64
+										134460028
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										3517499948
+									bucketsize = 64
+										2749708528
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										141563892
+									bucketsize = 64
+										118565901
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										115899171
+									bucketsize = 64
+										98613122
+								data = sales_dbscan.bin
+									bucketsize = 12
+										163302645
+									bucketsize = 64
+										133845463
+						threads = 4
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										3023202022
+									bucketsize = 64
+										2239124610
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										130183815
+									bucketsize = 64
+										107444154
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										104746911
+									bucketsize = 64
+										85721550
+								data = sales_dbscan.bin
+									bucketsize = 12
+										146149837
+									bucketsize = 64
+										113810360
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										3108842018
+									bucketsize = 64
+										2350479997
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										130153492
+									bucketsize = 64
+										107292215
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										104648304
+									bucketsize = 64
+										85559558
+								data = sales_dbscan.bin
+									bucketsize = 12
+										145307546
+									bucketsize = 64
+										113182667
+						threads = 8
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2817712605
+									bucketsize = 64
+										2046582844
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										98202153
+									bucketsize = 64
+										76451406
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										75387721
+									bucketsize = 64
+										59191022
+								data = sales_dbscan.bin
+									bucketsize = 12
+										106268425
+									bucketsize = 64
+										74797322
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2902730724
+									bucketsize = 64
+										2156802686
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										98128290
+									bucketsize = 64
+										76413707
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										75367104
+									bucketsize = 64
+										59131336
+								data = sales_dbscan.bin
+									bucketsize = 12
+										105477680
+									bucketsize = 64
+										74234309
+						threads = 16
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2888463830
+									bucketsize = 64
+										2138854676
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										93057167
+									bucketsize = 64
+										61135433
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										64895731
+									bucketsize = 64
+										46856927
+								data = sales_dbscan.bin
+									bucketsize = 12
+										84611359
+									bucketsize = 64
+										53082107
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2888463830
+									bucketsize = 64
+										2138854676
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										92675415
+									bucketsize = 64
+										60284120
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										64762542
+									bucketsize = 64
+										46729159
+								data = sales_dbscan.bin
+									bucketsize = 12
+										84600337
+									bucketsize = 64
+										52846671
+						threads = 32
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2893799328
+									bucketsize = 64
+										2115266272
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										97081052
+									bucketsize = 64
+										61737167
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										72314525
+									bucketsize = 64
+										44128629
+								data = sales_dbscan.bin
+									bucketsize = 12
+										80559046
+									bucketsize = 64
+										46617789
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2893799328
+									bucketsize = 64
+										2115266272
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										97772863
+									bucketsize = 64
+										62212057
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										72066045
+									bucketsize = 64
+										43806168
+								data = sales_dbscan.bin
+									bucketsize = 12
+										80411071
+									bucketsize = 64
+										46514721
+						threads = 64
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2895096606
+									bucketsize = 64
+										2121981353
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										116574522
+									bucketsize = 64
+										74420531
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										92557327
+									bucketsize = 64
+										60388731
+								data = sales_dbscan.bin
+									bucketsize = 12
+										92348289
+									bucketsize = 64
+										60571048
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2895096606
+									bucketsize = 64
+										2121981353
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										116933710
+									bucketsize = 64
+										73696481
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										91638894
+									bucketsize = 64
+										58779700
+								data = sales_dbscan.bin
+									bucketsize = 12
+										92317420
+									bucketsize = 64
+										59946604
+						threads = 128
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2968623673
+									bucketsize = 64
+										2201299132
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										201910357
+									bucketsize = 64
+										151117469
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										176228938
+									bucketsize = 64
+										141001509
+								data = sales_dbscan.bin
+									bucketsize = 12
+										170372580
+									bucketsize = 64
+										142589776
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										2968623673
+									bucketsize = 64
+										2201299132
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										209010389
+									bucketsize = 64
+										147867202
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										170723551
+									bucketsize = 64
+										139528189
+								data = sales_dbscan.bin
+									bucketsize = 12
+										166101136
+									bucketsize = 64
+										138841488
+		eps = 32
+						threads = 1
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										17828638774
+									bucketsize = 64
+										12515077650
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										2195529355
+									bucketsize = 64
+										1960177144
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										1351158511
+									bucketsize = 64
+										1191468427
+								data = sales_dbscan.bin
+									bucketsize = 12
+										991236558
+									bucketsize = 64
+										855219849
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										17828638774
+									bucketsize = 64
+										12515077650
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										2194754640
+									bucketsize = 64
+										1959399679
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										1350690343
+									bucketsize = 64
+										1190999988
+								data = sales_dbscan.bin
+									bucketsize = 12
+										990935990
+									bucketsize = 64
+										854918721
+						threads = 2
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										13660698940
+									bucketsize = 64
+										8155444315
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1341527517
+									bucketsize = 64
+										1128603006
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										810585858
+									bucketsize = 64
+										685017319
+								data = sales_dbscan.bin
+									bucketsize = 12
+										795330017
+									bucketsize = 64
+										673825337
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12
+										13660698940
+									bucketsize = 64
+										8155444315
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										1344505199
+									bucketsize = 64
+										1126726007
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										811864513
+									bucketsize = 64
+										684681135
+								data = sales_dbscan.bin
+									bucketsize = 12
+										795271547
+									bucketsize = 64
+										673732171
+						threads = 4
+							minpts = 4
+								data = genes_dbscan.bin
+									bucketsize = 12
+										10368518070
+									bucketsize = 64
+										5392489481
+								data = gesture1_scale1000_dbscan.bin
+									bucketsize = 12
+										967183446
+									bucketsize = 64
+										800791844
+								data = gesture2_scale1000_dbscan.bin
+									bucketsize = 12
+										558362813
+									bucketsize = 64
+										459447713
+								data = sales_dbscan.bin
+									bucketsize = 12
+										476093087
+									bucketsize = 64
+										382088597
+							minpts = 64
+								data = genes_dbscan.bin
+									bucketsize = 12

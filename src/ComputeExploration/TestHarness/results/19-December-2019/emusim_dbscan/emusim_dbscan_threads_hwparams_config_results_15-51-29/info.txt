@@ -1,0 +1,12 @@
+Result 19-December-2019/emusim_dbscan/config_emusim_dbscan_threads_hwparams_config_results_15-51-29.txt
+	Config:  AUTO
+	Parameters:
+		exec: ['omp_dbscan_master.mwx']
+		eps: ['64']
+		log2_memory_size: ['28', '33', '36']
+		log2_num_nodelets: ['3', '5', '7']
+		gcs_per_nodelet: ['1']
+		threads: ['1', '2', '4', '8', '16', '32', '64', '128']
+		minpts: ['4']
+		data: ['a1_va3_scale1000_dbscan.bin']
+		bucketsize: ['12']

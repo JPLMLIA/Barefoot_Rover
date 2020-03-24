@@ -1,0 +1,12 @@
+Result 11_4_19/hpsc_dbscan_procs_config_results_2019-11-05_14.25.32.654654.txt
+	Config:
+		data = a1_va3_scale1000_dbscan.bin
+		exec = mpi_dbscan
+	Parameters:
+		eps: ['32', '128', '256']
+		minpts: ['64']
+		bucketsize: ['12']
+		data: ['a1_va3_scale1000_dbscan.bin']
+		exec: ['mpi_dbscan']
+		procs: ['1', '2', '4', '8']
+		simd: ['0', '1']

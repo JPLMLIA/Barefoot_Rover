@@ -1,0 +1,114 @@
+eps = 1
+	minpts = 64
+		bucketsize = 12
+			data = a1_va3_scale1000_dbscan.bin
+				exec = mpi_dbscan
+					threads = 1
+						simd = 0
+							0.0255864
+						simd = 1
+							0.131914
+			data = EEG_Eye_State_dbscan.bin
+						simd = 0
+							0.272389
+						simd = 1
+							0.351279
+eps = 2
+			data = a1_va3_scale1000_dbscan.bin
+						simd = 0
+							0.0523875
+						simd = 1
+							0.165612
+			data = EEG_Eye_State_dbscan.bin
+						simd = 0
+							0.360645
+						simd = 1
+							0.607023
+eps = 4
+			data = a1_va3_scale1000_dbscan.bin
+						simd = 0
+							0.0831914
+						simd = 1
+							0.266401
+			data = EEG_Eye_State_dbscan.bin
+						simd = 0
+							0.887834
+						simd = 1
+							1.53924
+eps = 8
+			data = a1_va3_scale1000_dbscan.bin
+						simd = 0
+							0.142202
+						simd = 1
+							0.278846
+			data = EEG_Eye_State_dbscan.bin
+						simd = 0
+							3.01163
+						simd = 1
+							4.52888
+eps = 16
+			data = a1_va3_scale1000_dbscan.bin
+						simd = 0
+							0.30202
+						simd = 1
+							0.550257
+			data = EEG_Eye_State_dbscan.bin
+						simd = 0
+							15.1621
+						simd = 1
+							22.5174
+eps = 32
+			data = a1_va3_scale1000_dbscan.bin
+						simd = 0
+							0.652638
+						simd = 1
+							1.20479
+			data = EEG_Eye_State_dbscan.bin
+						simd = 0
+							74.7284
+						simd = 1
+							98.2969
+eps = 64
+			data = a1_va3_scale1000_dbscan.bin
+						simd = 0
+							1.38306
+						simd = 1
+							2.61972
+			data = EEG_Eye_State_dbscan.bin
+						simd = 0
+							229.7
+						simd = 1
+							242.067
+eps = 128
+			data = a1_va3_scale1000_dbscan.bin
+						simd = 0
+							2.86499
+						simd = 1
+							3.75346
+			data = EEG_Eye_State_dbscan.bin
+						simd = 0
+							392.281
+						simd = 1
+							353.772
+eps = 256
+			data = a1_va3_scale1000_dbscan.bin
+						simd = 0
+							5.25082
+						simd = 1
+							6.28486
+			data = EEG_Eye_State_dbscan.bin
+						simd = 0
+							473.222
+						simd = 1
+							427.576
+eps = 512
+			data = a1_va3_scale1000_dbscan.bin
+						simd = 0
+							8.62007
+						simd = 1
+							8.61463
+			data = EEG_Eye_State_dbscan.bin
+						simd = 0
+							436.643
+						simd = 1
+							429.991

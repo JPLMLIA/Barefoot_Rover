@@ -1,0 +1,263 @@
+eps = 32
+	minpts = 64
+		bucketsize = 12
+			data = a1_va3_scale1000_dbscan.bin
+				exec = mpi_dbscan
+					procs = 1
+						simd = 0
+							0.743132
+						simd = 1
+							1.42061
+					procs = 2
+						simd = 0
+							0.65461
+						simd = 1
+							0.942177
+					procs = 4
+						simd = 0
+							0.709644
+						simd = 1
+							0.862382
+					procs = 8
+						simd = 0
+							0.685253
+						simd = 1
+							0.62294
+				exec = new_mpi_dbscan
+					procs = 1
+						simd = 0
+							0.732009
+						simd = 1
+							1.24929
+					procs = 2
+						simd = 0
+							0.455708
+						simd = 1
+							1.11663
+					procs = 4
+						simd = 0
+							0.632597
+						simd = 1
+							0.83578
+					procs = 8
+						simd = 0
+							0.338288
+						simd = 1
+							0.632496
+			data = EEG_Eye_State_dbscan.bin
+				exec = mpi_dbscan
+					procs = 1
+						simd = 0
+							71.715
+						simd = 1
+							101.504
+					procs = 2
+						simd = 0
+							45.3575
+						simd = 1
+							64.8263
+					procs = 4
+						simd = 0
+							29.0318
+						simd = 1
+							41.8044
+					procs = 8
+						simd = 0
+							19.3886
+						simd = 1
+							27.2191
+				exec = new_mpi_dbscan
+					procs = 1
+						simd = 0
+							74.1937
+						simd = 1
+							102.714
+					procs = 2
+						simd = 0
+							60.3677
+						simd = 1
+							66.3987
+					procs = 4
+						simd = 0
+							30.1354
+						simd = 1
+							39.7708
+					procs = 8
+						simd = 0
+							22.0617
+						simd = 1
+							26.9509
+eps = 128
+			data = a1_va3_scale1000_dbscan.bin
+				exec = mpi_dbscan
+					procs = 1
+						simd = 0
+							2.63447
+						simd = 1
+							3.85332
+					procs = 2
+						simd = 0
+							2.16329
+						simd = 1
+							3.29434
+					procs = 4
+						simd = 0
+							2.32493
+						simd = 1
+							2.09868
+					procs = 8
+						simd = 0
+							1.61693
+						simd = 1
+							1.96957
+				exec = new_mpi_dbscan
+					procs = 1
+						simd = 0
+							2.80725
+						simd = 1
+							4.27634
+					procs = 2
+						simd = 0
+							2.3739
+						simd = 1
+							2.98621
+					procs = 4
+						simd = 0
+							1.89642
+						simd = 1
+							2.23942
+					procs = 8
+						simd = 0
+							1.34818
+						simd = 1
+							2.32356
+			data = EEG_Eye_State_dbscan.bin
+				exec = mpi_dbscan
+					procs = 1
+						simd = 0
+							393.784
+						simd = 1
+							350.215
+					procs = 2
+						simd = 0
+							N/A
+						simd = 1
+							N/A
+					procs = 4
+						simd = 0
+							N/A
+						simd = 1
+							N/A
+					procs = 8
+						simd = 0
+							N/A
+						simd = 1
+							N/A
+				exec = new_mpi_dbscan
+					procs = 1
+						simd = 0
+							372.954
+						simd = 1
+							348.284
+					procs = 2
+						simd = 0
+							N/A
+						simd = 1
+							N/A
+					procs = 4
+						simd = 0
+							N/A
+						simd = 1
+							N/A
+					procs = 8
+						simd = 0
+							N/A
+						simd = 1
+							N/A
+eps = 256
+			data = a1_va3_scale1000_dbscan.bin
+				exec = mpi_dbscan
+					procs = 1
+						simd = 0
+							5.42003
+						simd = 1
+							6.42136
+					procs = 2
+						simd = 0
+							4.79938
+						simd = 1
+							4.93535
+					procs = 4
+						simd = 0
+							3.74556
+						simd = 1
+							4.9277
+					procs = 8
+						simd = 0
+							2.11449
+						simd = 1
+							4.17081
+				exec = new_mpi_dbscan
+					procs = 1
+						simd = 0
+							5.37064
+						simd = 1
+							6.89023
+					procs = 2
+						simd = 0
+							4.40326
+						simd = 1
+							4.9094
+					procs = 4
+						simd = 0
+							4.07253
+						simd = 1
+							3.62809
+					procs = 8
+						simd = 0
+							2.41052
+						simd = 1
+							3.71701
+			data = EEG_Eye_State_dbscan.bin
+				exec = mpi_dbscan
+					procs = 1
+						simd = 0
+							409.791
+						simd = 1
+							397.455
+					procs = 2
+						simd = 0
+							N/A
+						simd = 1
+							N/A
+					procs = 4
+						simd = 0
+							N/A
+						simd = 1
+							N/A
+					procs = 8
+						simd = 0
+							N/A
+						simd = 1
+							N/A
+				exec = new_mpi_dbscan
+					procs = 1
+						simd = 0
+							427.56
+						simd = 1
+							400.042
+					procs = 2
+						simd = 0
+							N/A
+						simd = 1
+							N/A
+					procs = 4
+						simd = 0
+							N/A
+						simd = 1
+							N/A
+					procs = 8
+						simd = 0
+							N/A
+						simd = 1
+							N/A

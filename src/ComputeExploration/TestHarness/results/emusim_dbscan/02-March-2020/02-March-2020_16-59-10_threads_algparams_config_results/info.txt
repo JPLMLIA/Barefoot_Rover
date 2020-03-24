@@ -1,0 +1,13 @@
+Result 02-March/02-March-2020_16-59-10_threads_algparams_config_results.txt
+	Config:  AUTO
+	Parameters:
+		log2_replnodes: ['0', '2', '6']
+		exec: ['omp_dbscan.mwx']
+		eps: ['4', '32', '128']
+		log2_memory_size: ['33']
+		log2_num_nodelets: ['3']
+		gcs_per_nodelet: ['1']
+		threads: ['1', '2', '4', '8', '16', '32', '64', '128']
+		minpts: ['4', '64']
+		data: ['genes_dbscan.bin', 'gesture1_scale1000_dbscan.bin', 'gesture2_scale1000_dbscan.bin', 'sales_dbscan.bin']
+		bucketsize: ['12', '64']

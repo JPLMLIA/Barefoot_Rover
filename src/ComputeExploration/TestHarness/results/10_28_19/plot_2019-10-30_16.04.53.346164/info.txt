@@ -1,0 +1,26 @@
+Result 10_28_19/hpsc_dbscan_minpts_config_results.txt
+	Config:
+		x = minpts
+		data = EEG_Eye_State_dbscan.bin
+	Parameters:
+		eps: ['64']
+		minpts: ['1', '2', '4', '8', '16', '32', '64', '128', '256', '512', '1024']
+		bucketsize: ['12']
+		data: ['EEG_Eye_State_dbscan.bin']
+		exec: ['mpi_dbscan']
+		threads: ['1']
+		simd: ['0', '1']
+Result 10_28_19/emusim_dbscan_minpts_config_results_scale=3.3333333333333334e-09.txt
+	Config:
+		x = minpts
+		data = EEG_Eye_State_dbscan.bin
+	Parameters:
+		eps: ['64']
+		minpts: ['1', '2', '4', '8', '64', '128']
+		bucketsize: ['12']
+		data: ['EEG_Eye_State_dbscan.bin']
+		exec: ['omp_dbscan.mwx']
+		threads: ['1']
+		log2_num_nodelets: ['3']
+		log2_memory_size: ['33']
+		gcs_per_nodelet: ['4']

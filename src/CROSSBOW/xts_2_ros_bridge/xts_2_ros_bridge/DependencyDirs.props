@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <XtsDir>C:\Users\jplba\workspace\barefoot_rover\Barefoot_Rover\tools\Xiroku\XtsApi-2.13\</XtsDir>
+    <DependencyDir>C:\Users\jplba\workspace\barefoot_rover\Barefoot_Rover\src\CROSSBOW\xts_2_ros_bridge\xts_2_ros_bridge\dependencies\</DependencyDir>
+    <libconfigDir>$(DependencyDir)libconfig\</libconfigDir>
+    <NLohmannJsonDir>$(DependencyDir)json\</NLohmannJsonDir>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="XtsDir">
+      <Value>$(XtsDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="DependencyDir">
+      <Value>$(DependencyDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="libconfigDir">
+      <Value>$(libconfigDir)</Value>
+    </BuildMacro>
+    <BuildMacro Include="NLohmannJsonDir">
+      <Value>$(NLohmannJsonDir)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

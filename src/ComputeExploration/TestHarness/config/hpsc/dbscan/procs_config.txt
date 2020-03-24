@@ -1,0 +1,7 @@
+hpsc_dbscan
+eps = 1, 2, 4, 8
+minpts = 4, 8, 16, 32, 64
+bucketsize = 4, 8, 16, 32, 64, 128, 256
+data = small_dbscan_data
+exec = hpsc_dbscan_exec
+procs = 1, 2, 4, 8, 16

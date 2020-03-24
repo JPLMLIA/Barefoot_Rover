@@ -1,0 +1,69 @@
+exec = mpi_dbscan
+	eps = 4
+		minpts = 4
+			data = a1_va3_scale1000_dbscan.bin
+				procs = 1
+					bucketsize = 12
+						0.0433917
+					bucketsize = 64
+						0.0526621
+				procs = 2
+					bucketsize = 12
+						0.0411458
+					bucketsize = 64
+						0.0688374
+				procs = 4
+					bucketsize = 12
+						0.0409391
+					bucketsize = 64
+						0.0378702
+				procs = 8
+					bucketsize = 12
+						0.0537183
+					bucketsize = 64
+						0.0506361
+				procs = 16
+					bucketsize = 12
+						0.251138
+					bucketsize = 64
+						0.372197
+				procs = 32
+					bucketsize = 12
+						1.02437
+					bucketsize = 64
+						1.02775
+				procs = 64
+					bucketsize = 12
+						N/A
+					bucketsize = 64
+						N/A
+				procs = 128
+					bucketsize = 12
+						N/A
+					bucketsize = 64
+						N/A
+		minpts = 64
+				procs = 1
+					bucketsize = 12
+						0.0524738
+					bucketsize = 64
+						0.0600412
+				procs = 2
+					bucketsize = 12
+						0.034219
+					bucketsize = 64
+						0.0596864
+				procs = 4
+					bucketsize = 12
+						0.036021
+					bucketsize = 64
+						0.0382245
+				procs = 8
+					bucketsize = 12
+						0.061698
+					bucketsize = 64
+						0.0536485
+				procs = 16
+					bucketsize = 12
+						0.387814
+					bucketsize = 64

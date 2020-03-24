@@ -1,0 +1,45 @@
+Result 11_18_19/emusim_dbscan_threads_results.txt
+	Config:
+		x = threads
+		gcs_per_nodelet = 1
+	Parameters:
+		eps: ['64']
+		minpts: ['32']
+		bucketsize: ['12']
+		data: ['a1_va3_scale1000_dbscan.bin']
+		exec: ['omp_dbscan_master.mwx', 'omp_dbscan_no_repl.mwx', 'omp_dbscan_repl_0.mwx', 'omp_dbscan_repl_full.mwx']
+		threads: ['1', '2', '4', '8', '16']
+		log2_num_nodelets: ['3']
+		log2_memory_size: ['33']
+		gcs_per_nodelet: ['1']
+
+Comments:
+
+Difference between master and other 3...
+
+1. Master has replicated merge vecs. Others distributed with malloc1dlong
+
+vector<int>** mergeVecs = (vector<int>**)mw_malloc1dlong(maxthreads);		
+mw_replicated_init((long*)&merge, (long)mergeVecs);
+
+Versus
+
+merge = (vector<int>**)mw_malloc1dlong(maxthreads);
+
+2. Master
+
+double** l_m_points = (double**)mw_malloc2d(num_points,dims * sizeof(double));
+mw_replicated_init((long *)&m_pts->m_points, (long)l_m_points);
+
+Versus
+
+m_pts->m_points = (double**)malloc(sizeof(double*) * num_points);
+for(int ll = 0; ll < num_points; ll++) {
+	m_pts->m_points[ll] = (double*)malloc(sizeof(double) * dims);
+}
+
+3. Of course replicated kdtree...
+
+Just replicating the structure has virtually no effect as expected. However, reproducing all subsequent nodes seems to provide a great speed up. Still need to validate correctness, but promising.
+
+Intuition is each search starts from the root of the tree. If this tree node is on a single nodelet, every search has to go through this nodelet, creating a bottleneck. This is supported by cdc output...

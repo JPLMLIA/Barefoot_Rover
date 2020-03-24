@@ -1,0 +1,666 @@
+emusim_rf
+tree_depth = 10
+	exec = random_forest_classifier.mwx
+		log2_memory_size = 26
+			log2_num_nodelets = 3
+				gcs_per_nodelet = 1
+					min_leaf_samples = 10
+						threads = 1
+							num_trees = 256
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 2
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 4
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 8
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 16
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 32
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 64
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 128
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+			log2_num_nodelets = 5
+						threads = 1
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 2
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 4
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 8
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 16
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 32
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 64
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 128
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+			log2_num_nodelets = 7
+						threads = 1
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 2
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 4
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 8
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 16
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 32
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 64
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 128
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+		log2_memory_size = 30
+			log2_num_nodelets = 3
+						threads = 1
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 2
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 4
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 8
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 16
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 32
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 64
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 128
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+			log2_num_nodelets = 5
+						threads = 1
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 2
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 4
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 8
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 16
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 32
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 64
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 128
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+			log2_num_nodelets = 7
+						threads = 1
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 2
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 4
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 8
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 16
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 32
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 64
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 128
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+		log2_memory_size = 35
+			log2_num_nodelets = 3
+						threads = 1
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 2
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 4
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 8
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 16
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 32
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 64
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 128
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+			log2_num_nodelets = 5
+						threads = 1
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 2
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 4
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 8
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 16
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 32
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 64
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 128
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+			log2_num_nodelets = 7
+						threads = 1
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 2
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 4
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 8
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 16
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 32
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 64
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075
+						threads = 128
+								data = creditcard
+									0.2375
+								data = eeg
+									0.0
+								data = gesture_phase1
+									0.6725
+								data = gesture_phase2
+									0.8075

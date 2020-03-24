@@ -1,0 +1,11 @@
+emusim_rf
+DEBUG = 1
+exec = emu_rf_exec
+data = small_rf_data
+num_trees = 200
+tree_depth = 10
+min_leaf_samples = 10
+log2_num_nodelets = 3
+log2_memory_size = 33
+gcs_per_nodelet = 1
+threads = 1

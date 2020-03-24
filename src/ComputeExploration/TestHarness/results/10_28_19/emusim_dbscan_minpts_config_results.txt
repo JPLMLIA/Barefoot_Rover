@@ -1,0 +1,35 @@
+eps = 64
+        minpts = 1
+                bucketsize = 12
+                        data = a1_va3_scale1000_dbscan.bin
+                                exec = omp_dbscan.mwx
+                                        threads = 1
+                                                log2_num_nodelets = 3
+                                                        log2_memory_size = 33
+                                                                gcs_per_nodelet = 4
+                                                                        353646440
+                        data = EEG_Eye_State_dbscan.bin
+                                                                        73197271015
+        minpts = 2
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        353307995
+                        data = EEG_Eye_State_dbscan.bin
+                                                                        73197269707
+        minpts = 4
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        353238167
+                        data = EEG_Eye_State_dbscan.bin
+                                                                        73197269172
+        minpts = 8
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        353154177
+                        data = EEG_Eye_State_dbscan.bin
+                                                                        73197262516
+        minpts = 64
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        352879319
+                        data = EEG_Eye_State_dbscan.bin
+                                                                        73195569737
+        minpts = 128
+                        data = a1_va3_scale1000_dbscan.bin
+                                                                        352739474
