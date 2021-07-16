@@ -1,4 +1,4 @@
-Data Structures / Test Configuration
+# Data Structures / Test Configuration
 
 # Rock Tests
 * If the rocks are above the ground, do not set them too high above the level of the sand. The optical flow camera throws errors with sudden changes in its view.
@@ -38,16 +38,14 @@ Data Structures / Test Configuration
 
 
  ## Science & Engineering Target Supporting Papers
-* [Martian Terrain Types](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/docs/papers/Martian%20terrain%20types%20%26%20science%20interest%201-s2.0-S0022489816300891-main.pdf)
+* [Martian Terrain Types](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/papers/Martian%20terrain%20types%20%26%20science%20interest%201-s2.0-S0022489816300891-main.pdf)
 * [Conversion from Effective Size Mesh to mm](https://en.wikipedia.org/wiki/Mesh_(scale))
 * [Mechanical soil measurement using sieve analysis](http://www.ce.memphis.edu/1101/notes/filtration/sieve_analysis.pdf)
-* [Ground truth data](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/docs/papers/CalTest%20JPL%20150115%20LAB%20TEST%20RESULTS%20prnt.pdf)
+* [Ground truth data](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/papers/CalTest%20JPL%20150115%20LAB%20TEST%20RESULTS%20prnt.pdf)
 
-## [Mojave-1 Mars Simulant](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/docs/papers/Simulant%20MMS%20Paper.pdf)
-* Greg Peters @ JPL (bldg 117) super-friendly
+## [Mojave-1 Mars Simulant](https://github.com/JPLMLIA/Barefoot_Rover/tree/master//docs/papers/Simulant%20MMS%20Paper.pdf)
 * Doesn't absorb as much water as competitors
 * Have at least four grades: dust, 0.2mm, intermediate, coarse
-* Cost: Gift of buckets, sweat of student, and citation of their paper in ours
 
 | Simulant       | ~D60 (mm) |
 |----------------|-----------|
@@ -56,15 +54,14 @@ Data Structures / Test Configuration
 | mmintr         | 0.22      |
 | mmcrse         | >1 ?      |
 
-## Red Garnet in Barefoot Lounge
+## Red Garnet
 * Extremely coarse but mixed with extremely fine dust and occasional organic components
-* Used because it's literally right there
 
 | Simulant       | ~D60 (mm) |
 |----------------|-----------|
 | regdar         | > 1.5 ?   |
 
-## M2020 Mobility simulants ([link1](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/docs/regolith/Wheel%20Media%201%20Pamphlet%20v5%201%20p1.pptx),[link2](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/docs/regolith/Wheel%20Media%201%20Pamphlet%20v5%20p2.pptx))
+## M2020 Mobility simulants ([link1](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/Wheel%20Media%201%20Pamphlet%20v5%201%20p1.pptx),[link2](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/Wheel%20Media%201%20Pamphlet%20v5%20p2.pptx))
 | Simulant       | Long Name | D60 (mm) | Shape   | Density (g/cc) | Friction Angle | Notes                    |Sourcing | 
 |----------------|-----------|----------|---------|----------------|----------------|--------------------------|---------|
 | grc-01         | GRC-1          | 0.39     | angular | 1.6            | 36             |wide dist size, well-known|Black Lab Corps (Chardon OH) |
@@ -94,7 +91,7 @@ Data Structures / Test Configuration
 
 [[images/Wheel_Dimensions_MSL_M2020_Tactile.png|Comparative Wheel Dimensions]]
 [[images/Tactile Wheel.gif|Wheel in Motion]]
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/docs/doc_pics/WheelElectronics.PNG)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/WheelElectronics.PNG)
 
 ## CROSSBOW
 Cart-based Robotic One-wheeled Surrogate System for Barefoot OSSE Work
@@ -113,22 +110,22 @@ Cart-based Robotic One-wheeled Surrogate System for Barefoot OSSE Work
    - EIS multi-frequency sweep
    - Sinkage gauge (linear track)
    - Visual camera system recording surface in contact with wheel (forward-focus)
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/docs/doc_pics/RigOperation.gif)
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/docs/doc_pics/EBoxAnnotated.PNG)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/RigOperation.gif)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/EBoxAnnotated.PNG)
 
 # List of Test Rig Components
 ##  Z Stage
 * Allows vertical axis change.
 * Allows the wheel move up and down freely without the entire test rig moving vertically.
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/tree/master/docs/Data_Taking_Pics/axialchange.jpg?s=100)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/axialchange.jpg?s=100)
 
 ## Cameras(3)
 * All cameras point to different sides of cart
 * Front, Back, Side
 * Ensure cameras point as the wheel and dirt prior to running tests
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/tree/master/docs/Data_Taking_Pics/camer1.jpg)
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/tree/master/docs/Data_Taking_Pics/camera2.jpg)
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/tree/master/docs/Data_Taking_Pics/camera3.jpg)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/camer1.jpg)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/camera2.jpg)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/camera3.jpg)
 
 ## PX4Flow Smart Camera
 We have eliminated the PX4Flow Camera.
@@ -137,17 +134,17 @@ We have eliminated the PX4Flow Camera.
 * Converts and regulates power from the socket to an appropriate voltage
 * Converts power from AC to DC
 * Motor runs at 48V
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/documentation/Data_Taking_Pics/converter.jpeg)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/converter.jpeg)
 ## DC to DC converter(2)
 * Takes the 48V and steps it down to 12V
 * There are two of these
 * Connected to USB hubs
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/documentation/Data_Taking_Pics/IMG_6170.JPG)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/IMG_6170.JPG)
 ## Moisture Sensor
 * Located on the Outside of the Wheel next to pressure pads
 * measures moisture in the dirt
 * Not in contact with ground between 65 and 155 degrees
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/documentation/Data_Taking_Pics/moisturesensor.jpg)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/moisturesensor.jpg)
 ## DC Motor
 * Midwest Motion D33-655H-48V GP81-195 EI-512 (discontinued model)
 * 5.7A rated current
@@ -159,7 +156,7 @@ We have eliminated the PX4Flow Camera.
 * Adjust speed by changing values of potentiometer
 * Fast: 301 rpm for motor (100%), 1.54 rpm for wheel
 * Slow: 113 rpm for motor (0%), 0.58 rpm for wheel
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/documentation/Data_Taking_Pics/motor.jpg)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/motor.jpg)
 ## Spider Coupling
 * Power and torque transfer between two shafts
 * See motor image
@@ -168,25 +165,24 @@ We have eliminated the PX4Flow Camera.
 * Outputs current/speed data to Arduino
 * Controls motor speed via integrated potentiometers (next to microUSB)
 * Reads control switch state to determine direction and start/stop
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/documentation/Data_Taking_Pics/power.jpg)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/power.jpg)
 ## Arduino(red)
 * Reads Z-stage, ESCON outputs, PX4Flow, cart IMU (ADXL345)
 * See image above
 ## National Instruments Multifunction I/O device
 * Black box measures strain gauge resistance in F/T sensor
 * White box processes data accordingly for computer
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/documentation/Data_Taking_Pics/topcontroller.jpg)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/topcontroller.jpg)
 ## Emergency Stop Button
 * Overrides the control button by cutting power to the motor
 * Causes  cart to stop until button is twisted and released
 *After button is released, control returns to grey controller
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/documentation/Data_Taking_Pics/IMG_6168.JPG)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/IMG_6168.JPG)
 ## Controller
 * Controls the movement of the cart
 *Toggle switch determines the direction of motion
 *Hold down the side button to make cart move
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/documentation/Data_Taking_Pics/IMG_6169.JPG)
-
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/IMG_6169.JPG)
 
 ## Wheel Calibration
 
@@ -197,39 +193,22 @@ This test is used to see what the pressure pads read when there is no pressure b
 ### New Pressure Pad Calibration
 
 On a flat plank, the wheel is rolled overtop in both grouser-removed and grouser-equipped configuration. Use a long(ish) USB cable to connect the cart to the wheel , and have one person pull the cart at the same time as another person rolling the wheel (see figure below). 
-![](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/docs/doc_pics/NewWheel_Calibration_Setup.jpg)
+![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/NewWheel_Calibration_Setup.jpg)
 
 In order to avoid data anomalies caused by the edges of the plank in contact with the pad, roll the wheel down the plank offset to one edge of the pad, and then roll the wheel back offset to the opposite edge of the pad (emphasis on edge of the pad, not the wheel, though one edge of the pad is against the wheel edge). Ensure that before rolling back, the starting angle is reset to the starting angle of the forward roll. In this way, two runs are done for each angle (0, 90, 180, 270, labelled on the inside of the wheel). Incremented weights are 10, 20, and 30 lbs. This produces a calibration curve to fit the raw data to real load responses. 
 The above is completed fully with the grousers removed and with the grousers attached, forming two sets of calibration data.
 
-When saving files for pad calibration, included "EIS" and "NonEIS" in filename to correspond to which sides of the wheel were in full contact with the plank (as shown in figure below). 
-
-![Test](https://github-fn.jpl.nasa.gov/BarefootRover/Barefoot_Rover/blob/master/docs/doc_pics/NewWheel_Calibration_Labelled.PNG)
-
-### Using Calibration Data for Calibration Curve
-
-Once the new wheel calibration data has been collected, the data is processed as follows:
-1. Read in all 'with grouser' data for a given wheel loading condition (e.g. all data from all runs with 10 lbs added)
-2.
-3.
-4.
-5. Repeat for each wheel loading condition
-6. 
-
-
-### On Grouser Calibration
+### Grouser On Calibration
 
 This test is used to see how a constant pressure applied to grousers will be read by the pressure sensor. Use the white calibration tool for this task. You will have to run LL_Test from your laptop to get pressure pad data. With the wheel on its side, attach the white tool to the grouser. The tool should not be touching the pressure pad or any other grousers. Roll the wheel over so that the tool is on the ground supporting the weight of the wheel. Do your best to hold the wheel in place directly above the pressure pad without applying any external pressure. The best way to do this is to make sure the slot the grouser fits into is perpendicular to the floor. Run LL_Test for 10 seconds, you should be able to see increased pressure around that grouser alone. Do this for each grouser on the wheel. Mark where you start and which direction you continue in with tape. This will allow you to number the grousers (1-48). 
 
 Tips: This is easy to do sitting down. Place the wheel far enough in front of you that you can place the tool and then roll it towards you without it hitting anything. Also, never hit stop scan on LL_Test. If you set the scan interval to 50 ms, you can set the frame count on the data capture to 1000 to get exactly 10 seconds of data. I usually set it to 1010 to have a little extra data just in case.
 
-### Off Grouser Calibration
+### Grouser Off Calibration
 
 This test is used to apply a constant pressure on the pad between the grouser and see what it reads. This works the same as the On Grouser Calibration, but you need to use the red tool instead of the white tool. With the wheel on its side, place the tool in between two grousers. The tool should not be touching either grouser and the lip on either side of the wheel should not inhibit the tool from being placed directly on the pressure pad. Place a piece of tape on top of the wheel that lines up with the section of pressure pad you are using. Roll the wheel over so that the tool is on the ground supporting the weight of the wheel. You will probably need to hold the tool in place for most of this process. Do your best to hold the wheel in place directly above the pressure pad without applying any external pressure. Keep the piece of tape oriented perpendicular to the floor to make sure that the pressure pad is also oriented correctly. Run LL_Test for 10 seconds, you should be able to see increased pressure around that area alone. Do this for each section on the wheel. Mark where you start and which direction you continue in with tape. This will allow you to number the sections (1-48). 
 
-Tips: This is easy to do sitting down. Place the wheel far enough in front of you that you can place the tool and then roll it towards you without it hitting anything. Also, never hit stop scan on LL_Test. If you set the scan interval to 50 ms, you can set the frame count on the data capture to 1000 to get exactly 10 seconds of data. I usually set it to 1010 to have a little extra data just in case.
-
-## Rig Calibration
+## CROSSBOW Calibration
 
 ### String Potentiometer Calibration
 
@@ -245,13 +224,11 @@ Directory with concatenated video frames from the monitoring webcams (each frame
  * Each frame named with the UTC timestamp so that they can be ordered/sorted by filename and referenced for time
 
 ATI
-
  * __Nx7__ array: [UTC,Fx,Fy,Fz,Tx,Ty,Tz]
  * Uses the commpany-provided transforms to map to the force-torque cell reference frames
  * Also outputting an additional numpy array tagged with '_x' to account for additional transform aligning the cell to the cart reference frame a bit better
 
 Cart Arduino
-
  * output from Arduino on cart, running: optical flow sensor (PX4Flow), Z-stage, cart IMU, available motor controller feedback 
  * __Nx10__ array: [UTC,Arduino timing,z-stage value (0.01 mm increment), ESCON current, ESCON speed, IMU x, IMU y, IMU z, PX4flow x (forward/back) displacement, PX4flow y (left/right) displacement]
     * ESCON motor controller outputs are scaled arbitrarily to values set on the board, which need to be known for any absolute meaning:
@@ -264,18 +241,15 @@ Cart Arduino
  * Arduino just spits out a tab-delimited string per measurement
 
 Wheel Arduino
-
  * Unmodified from code used on Tactile Wheel
  * __Nx8__ array: [UTC,IMU x, IMU y, IMU z, r, theta, phi, rho]
     * Final rho value is typically the only one we've used for Tactile Wheel, denoting the rotation of the wheel itself. Any calibration between pressure sensor contact point and rotational value was calculated with respect to rho
 
 Pressure Sensor
-
  * Proprietary .dat output files
  * Both Barefoot and Tactile Wheel have processing scripts that convert these text tables to more reasonable numpy format
 
 Webcam Fiducial Odometry
-
  * Returns two data files \*_ao.npy and \*_ao_x.npy to record the fiducial and cart odometry
    * __Nx31__ array (\*_ao.npy): [UTC, x0,y0...x29,y29]
       * tracks the location of the possible fiducials (numbered 0-29) in image space
