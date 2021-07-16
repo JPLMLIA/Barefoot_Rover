@@ -117,7 +117,7 @@ Cart-based Robotic One-wheeled Surrogate System for Barefoot OSSE Work
 ##  Z Stage
 * Allows vertical axis change.
 * Allows the wheel move up and down freely without the entire test rig moving vertically.
-![z stage](../docs/pics/axialchange.jpg?s=50)
+![z stage](../docs/pics/axialchange.jpg?s=10)
 
 ## Cameras(3)
 * All cameras point to different sides of cart
