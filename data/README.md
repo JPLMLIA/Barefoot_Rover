@@ -89,9 +89,6 @@
 * Circumference (no grousers): 1.62 m
 * Circumference (w/ grousers): 1.69 m
 
-[[images/|Comparative Wheel Dimensions]]
-[[images/|Wheel in Motion]]
-
 ![wheelsize](../docs/pics/Wheel_Dimensions_MSL_M2020_Tactile.png?s=10)
 ![wheelmotion](../docs/pics/Tactile_Wheel.gif?s=10)
 ![wheelelectronics](../docs/pics/WheelElectronics.PNG?s=10)
