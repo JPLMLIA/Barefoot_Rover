@@ -134,7 +134,7 @@ We have eliminated the PX4Flow Camera.
 * Converts and regulates power from the socket to an appropriate voltage
 * Converts power from AC to DC
 * Motor runs at 48V
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/converter.jpeg)
+![power converter](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/converter.jpeg)
 ## DC to DC converter(2)
 * Takes the 48V and steps it down to 12V
 * There are two of these
