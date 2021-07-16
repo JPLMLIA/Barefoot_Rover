@@ -91,7 +91,7 @@
 
 [[images/Wheel_Dimensions_MSL_M2020_Tactile.png|Comparative Wheel Dimensions]]
 [[images/Tactile Wheel.gif|Wheel in Motion]]
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/WheelElectronics.PNG)
+![wheelelectronics](.../docs/pics/WheelElectronics.PNG?s=10)
 
 ## CROSSBOW
 Cart-based Robotic One-wheeled Surrogate System for Barefoot OSSE Work
@@ -110,8 +110,8 @@ Cart-based Robotic One-wheeled Surrogate System for Barefoot OSSE Work
    - EIS multi-frequency sweep
    - Sinkage gauge (linear track)
    - Visual camera system recording surface in contact with wheel (forward-focus)
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/RigOperation.gif)
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/EBoxAnnotated.PNG)
+![operations](.../docs/pics/RigOperation.gif?s=10)
+![annotation](.../docs/pics/EBoxAnnotated.PNG?s=10)
 
 # List of Test Rig Components
 ##  Z Stage
@@ -123,9 +123,9 @@ Cart-based Robotic One-wheeled Surrogate System for Barefoot OSSE Work
 * All cameras point to different sides of cart
 * Front, Back, Side
 * Ensure cameras point as the wheel and dirt prior to running tests
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/camer1.jpg)
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/camera2.jpg)
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/camera3.jpg)
+![camera1](.../docs/pics/camer1.jpg?s=10)
+![camera2](.../docs/pics/camera2.jpg?s=10)
+![camera3](.../docs/pics/camera3.jpg?s=10)
 
 ## PX4Flow Smart Camera
 We have eliminated the PX4Flow Camera.
@@ -134,17 +134,17 @@ We have eliminated the PX4Flow Camera.
 * Converts and regulates power from the socket to an appropriate voltage
 * Converts power from AC to DC
 * Motor runs at 48V
-![power converter](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/converter.jpeg)
+![powerconverter](.../docs/pics/converter.jpeg?s=10)
 ## DC to DC converter(2)
 * Takes the 48V and steps it down to 12V
 * There are two of these
 * Connected to USB hubs
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/IMG_6170.JPG)
+![powerconverter2](.../docs/pics/IMG_6170.JPG?s=10)
 ## Moisture Sensor
 * Located on the Outside of the Wheel next to pressure pads
 * measures moisture in the dirt
 * Not in contact with ground between 65 and 155 degrees
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/moisturesensor.jpg)
+![moisturesensor](.../docs/pics/moisturesensor.jpg?s=10)
 ## DC Motor
 * Midwest Motion D33-655H-48V GP81-195 EI-512 (discontinued model)
 * 5.7A rated current
@@ -156,7 +156,7 @@ We have eliminated the PX4Flow Camera.
 * Adjust speed by changing values of potentiometer
 * Fast: 301 rpm for motor (100%), 1.54 rpm for wheel
 * Slow: 113 rpm for motor (0%), 0.58 rpm for wheel
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/motor.jpg)
+![motor](.../docs/pics/motor.jpg?s=10)
 ## Spider Coupling
 * Power and torque transfer between two shafts
 * See motor image
@@ -165,24 +165,24 @@ We have eliminated the PX4Flow Camera.
 * Outputs current/speed data to Arduino
 * Controls motor speed via integrated potentiometers (next to microUSB)
 * Reads control switch state to determine direction and start/stop
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/power.jpg)
+![escon](.../docs/pics/power.jpg?s=10)
 ## Arduino(red)
 * Reads Z-stage, ESCON outputs, PX4Flow, cart IMU (ADXL345)
 * See image above
 ## National Instruments Multifunction I/O device
 * Black box measures strain gauge resistance in F/T sensor
 * White box processes data accordingly for computer
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/topcontroller.jpg)
+![IO](.../docs/pics/topcontroller.jpg?s=10)
 ## Emergency Stop Button
 * Overrides the control button by cutting power to the motor
 * Causes  cart to stop until button is twisted and released
 *After button is released, control returns to grey controller
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/IMG_6168.JPG)
+![stopbutton](.../docs/pics/IMG_6168.JPG?s=10)
 ## Controller
 * Controls the movement of the cart
 *Toggle switch determines the direction of motion
 *Hold down the side button to make cart move
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/IMG_6169.JPG)
+![controller](.../docs/pics/IMG_6169.JPG?s=10)
 
 ## Wheel Calibration
 
@@ -193,7 +193,7 @@ This test is used to see what the pressure pads read when there is no pressure b
 ### New Pressure Pad Calibration
 
 On a flat plank, the wheel is rolled overtop in both grouser-removed and grouser-equipped configuration. Use a long(ish) USB cable to connect the cart to the wheel , and have one person pull the cart at the same time as another person rolling the wheel (see figure below). 
-![](https://github.com/JPLMLIA/Barefoot_Rover/tree/master/docs/pics/NewWheel_Calibration_Setup.jpg)
+![calibration](.../docs/pics/NewWheel_Calibration_Setup.jpg?s=10)
 
 In order to avoid data anomalies caused by the edges of the plank in contact with the pad, roll the wheel down the plank offset to one edge of the pad, and then roll the wheel back offset to the opposite edge of the pad (emphasis on edge of the pad, not the wheel, though one edge of the pad is against the wheel edge). Ensure that before rolling back, the starting angle is reset to the starting angle of the forward roll. In this way, two runs are done for each angle (0, 90, 180, 270, labelled on the inside of the wheel). Incremented weights are 10, 20, and 30 lbs. This produces a calibration curve to fit the raw data to real load responses. 
 The above is completed fully with the grousers removed and with the grousers attached, forming two sets of calibration data.
